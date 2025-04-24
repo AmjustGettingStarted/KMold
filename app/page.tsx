@@ -11,13 +11,13 @@ export default function Home() {
   return (
     <>
       <NewCars />
-      {/* <OnRoadPrice /> */}
+      <OnRoadPrice />
       <ChooseYourCar />
-      {/* <Enquiry /> */}
-      {/* <Service /> */}
-      {/* <PeriodicService /> */}
-      {/* <CommonFaq /> */}
-      {/* <Footer /> */}
+      <Enquiry />
+      <Service />
+      <PeriodicService />
+      <CommonFaq />
+      <Footer />
     </>
   );
 }
