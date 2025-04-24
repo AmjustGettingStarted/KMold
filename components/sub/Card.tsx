@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({ data }) => {
       {data.map((car) => (
         <div
           key={car.id}
-          className="max-w-sm min-w-[200px] rounded-md  border border-gray-200 h-auto "
+          className="max-w-sm min-w-[200px] rounded-md  border border-gray-200 h-full "
         >
           <div className="flex  items-center justify-center ">
             <Image
