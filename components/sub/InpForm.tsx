@@ -35,7 +35,7 @@ const InpForm: React.FC<FormProps> = ({ data }) => {
         className="h-full "
       >
         <h1 className="font-bold text-base py-2 h-full">{data.title}</h1>
-        <p className="text-xs text-gray-500 py-2 leading-tight">
+        <p className="text-xs text-gray-500 py-2 leading-tight tracking-tight">
           Kindly fill your details to get Maruti Suzuki car on-road price from
           our sales expert.
         </p>
@@ -43,7 +43,7 @@ const InpForm: React.FC<FormProps> = ({ data }) => {
           <div>
             <Input
               placeholder="Enter your name"
-              className="capitalize w-full text-black "
+              className="capitalize w-full text-black placeholder:text-black "
             />
           </div>
           <div>

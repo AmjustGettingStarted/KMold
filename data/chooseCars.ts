@@ -61,7 +61,7 @@ export const CarData = [
     id: 9,
   },
   {
-    url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/images/QGMlhofGBX_0_1675320865.jpg",
+    url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/images/4gB1liMSxB_0_1675323080.jpg",
     title: "Maruti Suzuki WagonR Tour H3",
     price: "₹ 5,51,500/-",
     id: 10,
