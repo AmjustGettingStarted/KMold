@@ -9,11 +9,11 @@ import {
 
 const CommonFaq = () => {
   return (
-    <div className="pt-8 px-6">
+    <div className="py4 sm:py-8 px-6">
       <h1 className="text-3xl font-bold py-4 ">Common FAQ</h1>
       <Accordion type="single" collapsible className="w-full">
-        <AccordionItem value="item-1" className="border-b-2 border-white">
-          <AccordionTrigger className="text-lg rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
+        <AccordionItem value="item-1" className="border-b-2 border-white ">
+          <AccordionTrigger className="text-lg cursor-pointer rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
             Why do I Choose Kalyani Motors services?
           </AccordionTrigger>
           <AccordionContent className="bg-[#F6F6F6] w-[95%] px-4 text-[#4a4a4a] text-base">
@@ -24,8 +24,8 @@ const CommonFaq = () => {
             without burning a hole in their pocket.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-2" className="border-b-2 border-white">
-          <AccordionTrigger className="text-lg rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
+        <AccordionItem value="item-2" className="border-b-2 border-white  ">
+          <AccordionTrigger className="text-lg cursor-pointer rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
             What services can Kalyani Motors provide for my car in Bangalore?
           </AccordionTrigger>
           <AccordionContent className="bg-[#F6F6F6] w-[95%] px-4 text-[#4a4a4a] text-base">
@@ -36,8 +36,8 @@ const CommonFaq = () => {
             services without burning a hole in their pocket.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-3" className="border-b-2 border-white">
-          <AccordionTrigger className="text-lg rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
+        <AccordionItem value="item-3" className="border-b-2 border-white ">
+          <AccordionTrigger className="text-lg cursor-pointer rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
             How much would I be spending to get a basic car service done at
             Kalyani Motors in Bangalore?
           </AccordionTrigger>
@@ -47,8 +47,8 @@ const CommonFaq = () => {
             an appointment from our website or Android app.{" "}
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-4" className="border-b-2 border-white">
-          <AccordionTrigger className="text-lg rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
+        <AccordionItem value="item-4" className="border-b-2 border-white ">
+          <AccordionTrigger className="text-lg cursor-pointer rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
             How good is Kalyani Motors presence in Bangalore & Hyderabad?
           </AccordionTrigger>
           <AccordionContent className="bg-[#F6F6F6] w-[95%] px-4 text-[#4a4a4a] text-base">
@@ -57,8 +57,8 @@ const CommonFaq = () => {
             repair center and driving schools,.{" "}
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-5" className="border-b-2 border-white">
-          <AccordionTrigger className="text-lg rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
+        <AccordionItem value="item-5" className="border-b-2 border-white ">
+          <AccordionTrigger className="text-lg cursor-pointer rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
             Would there be any extra charges in addition to the prescribed
             service rates?
           </AccordionTrigger>
@@ -68,8 +68,8 @@ const CommonFaq = () => {
             standard authorized service centres.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-6" className="border-b-2 border-white">
-          <AccordionTrigger className="text-lg rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
+        <AccordionItem value="item-6" className="border-b-2 border-white ">
+          <AccordionTrigger className="text-lg cursor-pointer rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
             What is the basic duration for a car service from Kalyani Motors?
           </AccordionTrigger>
           <AccordionContent className="bg-[#F6F6F6] w-[95%] px-4 text-[#4a4a4a] text-base">
@@ -77,8 +77,8 @@ const CommonFaq = () => {
             package you opt for.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-7" className="border-b-2 border-white">
-          <AccordionTrigger className="text-lg rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
+        <AccordionItem value="item-7" className="border-b-2 border-white ">
+          <AccordionTrigger className="text-lg cursor-pointer rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
             How good is the service equipment at Kalyani Motors workshops?
           </AccordionTrigger>
           <AccordionContent className="bg-[#F6F6F6] w-[95%] px-4 text-[#4a4a4a] text-base">
@@ -88,8 +88,8 @@ const CommonFaq = () => {
             recharging apparatus are some to name a few.{" "}
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-8" className="border-b-2 border-white">
-          <AccordionTrigger className="text-lg rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
+        <AccordionItem value="item-8" className="border-b-2 border-white ">
+          <AccordionTrigger className="text-lg cursor-pointer rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
             I am facing an issue with my car after service. What do I do?
           </AccordionTrigger>
           <AccordionContent className="bg-[#F6F6F6] w-[95%] px-4 text-[#4a4a4a] text-base">
@@ -99,8 +99,8 @@ const CommonFaq = () => {
             dedicated customer service team is always ready to help you out.
           </AccordionContent>
         </AccordionItem>
-        <AccordionItem value="item-9" className="border-b-2 border-white">
-          <AccordionTrigger className="text-lg rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
+        <AccordionItem value="item-9" className="border-b-2 border-white ">
+          <AccordionTrigger className="text-lg cursor-pointer rounded-none font-semibold bg-[#EAEAEA] px-2 py-3  text-[#282828] border-b-white hover:no-underline">
             I don’t exactly find the service option I am looking for. Can I get
             help?
           </AccordionTrigger>
