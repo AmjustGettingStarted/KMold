@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({ data }) => {
       {data.map((car) => (
         <div
           key={car.id}
-          className="max-w-sm rounded-md  border border-gray-200 h-auto "
+          className="max-w-sm min-w-[200px] rounded-md  border border-gray-200 h-auto "
         >
           <div className="flex  items-center justify-center ">
             <Image
@@ -30,33 +30,29 @@ const Card: React.FC<CardProps> = ({ data }) => {
               className="w-full object-contain  rounded-t-md   "
             />
           </div>
-          <div className="flex flex-col justify-between p-4 bg-[#F9F9F9] space-y-2">
-            <div className="space-y-2">
+          <div className="flex flex-col justify-between p-4 bg-[#F9F9F9] space-y-1 sm:space-y-2">
+            <div className="space-y-1 sm:space-y-2">
               <h2
-                className="text-base text-gray-500  tracking-wide font-light"
+                className="text-sm sm:text-base text-gray-500  tracking-wide font-light"
                 title={car.title}
               >
                 {car.title.slice(0, 20)}
               </h2>
-              {/* <h2
-                className="text-base w-full whitespace-nowrap  text-gray-500  tracking-wide font-light"
-                title={car.title}
-              >
-                {car.title}
-              </h2> */}
-              <h3 className="font-semibold">{car.price}</h3>
+              <h3 className="font-semibold text-sm sm:text-base">
+                {car.price}
+              </h3>
               <p className="text-xs text-gray-500">Ex-Showroom Price</p>
             </div>
             <div className="flex flex-col items-center space-y-1 text-white pb-2 ">
               <button
                 type="button"
-                className="py-2 cursor-pointer  tracking-tight flex shadow-xl hover:shadow-none bg-[#0D94EA] items-center justify-center w-full   rounded-md "
+                className="py-2 cursor-pointer  tracking-tight flex shadow-xl hover:shadow-none bg-[#0D94EA] items-center justify-center w-full text-sm sm:text-base  sm:rounded-md rounded-sm "
               >
                 Show on-Road Price
               </button>
               <button
                 type="button"
-                className="py-2 cursor-pointer  tracking-tight flex shadow-xl hover:shadow-none bg-[#F3205B] items-center justify-center w-full   rounded-md "
+                className="py-2 cursor-pointer  tracking-tight flex shadow-xl hover:shadow-none bg-[#F3205B] items-center justify-center w-full text-sm sm:text-base rounded-sm sm:rounded-md "
               >
                 Get Best Offers
               </button>

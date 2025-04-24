@@ -1,4 +1,11 @@
-export const data = [
+interface Cars {
+  url: string;
+  title: string;
+  price: string;
+  id: number;
+}
+
+export const data: Cars[] = [
   {
     url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/images/sz32uo3qiI_0_1731584640.jpg",
     title: "Maruti Suzuki Dzire 2024 ZXI + MT",

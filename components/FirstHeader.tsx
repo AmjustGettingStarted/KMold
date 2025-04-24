@@ -6,7 +6,7 @@ import Call from "../assets/call.png";
 const FirstHeader = () => {
   return (
     <header>
-      <div className="sticky sm:relative flex justify-between w-full items-center py-2 px-5 ">
+      <div className="sm:static z-20 fixed top-0 left-0 bg-white flex justify-between w-full items-center py-2 px-5 ">
         {/* Header Left Section */}
         <div className="flex gap-5 items-center justify-start">
           <div>

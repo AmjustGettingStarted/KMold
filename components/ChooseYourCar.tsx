@@ -1,13 +1,14 @@
 import React from "react";
 import Card from "./sub/Card";
-import { CarData } from "../data/chooseCars"
+import { CarData } from "../data/chooseCars";
+import ScrollNewCar from "./sub/ScrollNewCar";
 
 const ChooseYourCar = () => {
   return (
-    <div className="flex flex-col py-12 pb-4 px-6">
+    <div className="flex flex-col py-12 pb-4 px-2 sm:px-6">
       <div className="w-full flex items-center justify-between pb-6">
-        <h1 className="text-3xl font-bold">Choose Your Car</h1>
-        <button className="py-2 px-4 uppercase bg-[#546BFF] text-white text-base rounded-md shadow-lg">
+        <h1 className="text-lg sm:text-3xl font-bold">Choose Your Car</h1>
+        <button className="py-2 px-4 uppercase bg-[#546BFF] text-white text-sm sm:text-base rounded-md shadow-lg">
           view all cars
         </button>
       </div>
@@ -22,10 +23,14 @@ const ChooseYourCar = () => {
           Fuel
         </h1>
       </div>
-      <div className="w-[85%] flex items-center justify-start py-2 ">
-        <div className=" grid grid-cols-3 gap-4 w-full  items-center">
+      <div className="w-[85%] hidden sm:flex items-center justify-start py-2 ">
+        <div className=" grid md:grid-cols-2 lg:grid-cols-3 gap-4 w-full  items-center">
           <Card data={CarData} />
         </div>
+      </div>
+      {/* Scrollable Horizontal Cars */}
+      <div className="flex sm:hidden items-center ">
+        <ScrollNewCar data={CarData} />
       </div>
     </div>
   );
