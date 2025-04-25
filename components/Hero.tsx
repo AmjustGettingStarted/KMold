@@ -35,7 +35,7 @@ export function Hero() {
                   alt="banner image"
                   width={1440}
                   height={500}
-                  className="object-cover "
+                  className="object-cover h-[300px] md:h-[500px] "
                 />
                 {/* <span className="text-4xl font-semibold">{index + 1}</span> */}
               </CardContent>
@@ -43,9 +43,8 @@ export function Hero() {
           </CarouselItem>
         ))}
       </CarouselContent>
-
-      <CarouselPrevious className="hidden  sm:flex" />
-      <CarouselNext className="hidden  sm:flex" />
+      <CarouselPrevious className="hidden  sm:flex hover:scale-110 transition-all ease-in-out duration-300" />
+      <CarouselNext className="hidden  sm:flex hover:scale-110 transition-all ease-in-out duration-300" />
     </Carousel>
   );
 }
