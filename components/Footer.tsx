@@ -49,7 +49,7 @@ const Footer = () => {
                   src="https://www.kalyanimotors.com/static/media/kalyani_light.1aa9da94294cc7262a59.png"
                 />
               </span>
-              <div className="flex flex-col items-start mr-0 sm:mr-5 md:mr-10 lg:mr-0">
+              <div className="flex flex-col items-center sm:items-start mr-0 sm:mr-5 md:mr-10 lg:mr-0">
                 <span className="pb-6 pt-0 lg:pt-6 tracking-tight text-sm">
                   Banglore
                 </span>
@@ -102,7 +102,7 @@ const Footer = () => {
             </div>
           </div>
           {/* bottom line */}
-          <div className="w-full items-center text-center pt-8 pb-4">
+          <div className="w-full items-center text-center pt-8 pb-4 mb-[60px] sm:mb-0 px-2 sm:px-0">
             <p className="text-xs font-semibold ">
               COPYRIGHT © 2022 KALYANI MOTORS PVT LTD, BANGALORE, INDIA |
               Designed by: Kalyani Motors
