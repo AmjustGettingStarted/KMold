@@ -5,6 +5,7 @@ import FirstHeader from "../components/FirstHeader";
 import Banner from "../components/Banner";
 import SecondHeader from "../components/SecondHeader";
 import { Hero } from "@/components/Hero";
+import Footer from "@/components/Footer";
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
@@ -36,6 +37,7 @@ export default function RootLayout({
         <Banner />
         <SecondHeader />
         {children}
+        <Footer/>
       </body>
     </html>
   );
