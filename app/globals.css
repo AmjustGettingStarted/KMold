@@ -4,6 +4,7 @@
 @custom-variant dark (&:is(.dark *));
 body {
   background-color: #fff;
+  overflow-x: hidden;
 }
 
 @theme inline {
