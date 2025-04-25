@@ -29,13 +29,13 @@ export function Hero() {
         {data.map((item) => (
           <CarouselItem key={item.id}>
             <Card>
-              <CardContent className="w-full h-full flex items-center justify-center">
+              <CardContent>
                 <Image
                   src={item.url}
                   alt="banner image"
-                  width={1440}
-                  height={500}
-                  className="object-cover h-[300px] md:h-[500px] "
+                  width={2192}
+                  height={770}
+                  className="md:object-contain object-cover w-full h-[250px] md:h-auto "
                 />
                 {/* <span className="text-4xl font-semibold">{index + 1}</span> */}
               </CardContent>
