@@ -1,7 +1,6 @@
 import ChooseYourCar from "@/components/ChooseYourCar";
 import CommonFaq from "@/components/CommonFaq";
 import Enquiry from "@/components/Enquiry";
-import Footer from "@/components/Footer";
 import NewCars from "@/components/NewCars";
 import OnRoadPrice from "@/components/OnRoadPrice";
 import PeriodicService from "@/components/PeriodicService";
@@ -17,7 +16,6 @@ export default function Home() {
       <Service />
       <PeriodicService />
       <CommonFaq />
-      <Footer />
     </>
   );
 }
