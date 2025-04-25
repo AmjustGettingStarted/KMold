@@ -23,7 +23,7 @@ const Enquiry = () => {
       <div className="flex items-center justify-center w-full h-full mx-auto lg:pr-[8%]">
         <div className="basis-1/2 hidden md:flex"></div>
         <div className="bg-white  relative min-w-[250px] w-[300px] m-auto">
-          <InpForm data={EnquiryData} />
+          <InpForm data={EnquiryData} name="enq" />
         </div>
       </div>
     </div>

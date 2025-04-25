@@ -16,8 +16,9 @@ interface FormProps {
     dropDownName: string;
     buttonName: string;
   };
+  name: string;
 }
-const InpForm: React.FC<FormProps> = ({ data }) => {
+const InpForm: React.FC<FormProps> = ({ data, name }) => {
   const [form] = Form.useForm();
 
   const onFinish = (values: unknown) => {
@@ -29,7 +30,7 @@ const InpForm: React.FC<FormProps> = ({ data }) => {
       <Form
         {...layout}
         form={form}
-        name="control-hooks"
+        name={name}
         onFinish={onFinish}
         style={{ maxWidth: 600 }}
         className="h-full "

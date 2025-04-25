@@ -24,7 +24,7 @@ const OnRoadPrice = () => {
           className="bg-white  justify-end items-end  relative min-w-[250px] w-[300px] m-auto 
         "
         >
-          <InpForm data={OnRoadData} />
+          <InpForm data={OnRoadData} name="road" />
         </div>
         <div className="basis-1/2  hidden md:flex "></div>
       </div>
