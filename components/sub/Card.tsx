@@ -22,7 +22,7 @@ const Card: React.FC<CardProps> = ({ data }) => {
           key={car.id}
           className="max-w-sm min-w-[200px] rounded-md  border border-gray-200 h-full "
         >
-          <Link href="/details">
+          <Link href={`/details/${car.title}`} replace>
             <div className="flex  items-center justify-center ">
               <Image
                 src={car.url}
