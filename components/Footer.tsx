@@ -58,19 +58,34 @@ const Footer = () => {
                 </span>
                 <span className="w-full mx-auto ">
                   <div className=" w-full flex gap-2 lg:gap-6 items-center px-4 lg:px-8 flex-wrap">
-                    <a href="https://www.facebook.com/KalyaniMotors">
+                    <a
+                      target="_blank"
+                      href="https://www.facebook.com/KalyaniMotors"
+                    >
                       <FaFacebookF size={20} />
                     </a>
-                    <a href="https://x.com/i/flow/login?redirect_after_login=%2FKalyaniMotors">
+                    <a
+                      target="_blank"
+                      href="https://x.com/i/flow/login?redirect_after_login=%2FKalyaniMotors"
+                    >
                       <FaTwitter size={20} />
                     </a>
-                    <a href="https://www.instagram.com/kalyanimotors.hyderabad/">
+                    <a
+                      target="_blank"
+                      href="https://www.instagram.com/kalyanimotors.hyderabad/"
+                    >
                       <ImInstagram size={20} />
                     </a>
-                    <a href="https://www.kalyanimotors.com/9845166144">
+                    <a
+                      target="_blank"
+                      href="https://www.kalyanimotors.com/9845166144"
+                    >
                       <FaWhatsapp size={20} />
                     </a>
-                    <a href="https://www.youtube.com/channel/UC410UN6Ki0RR-AtOxoy5FdQ">
+                    <a
+                      target="_blank"
+                      href="https://www.youtube.com/channel/UC410UN6Ki0RR-AtOxoy5FdQ"
+                    >
                       <FaYoutube size={20} />
                     </a>
                   </div>
@@ -109,10 +124,16 @@ const Footer = () => {
               </div>
               {/* Lower Right */}
               <div className="w-full lg:w-[30%] flex flex-col md:flex-row justify-evenly lg:flex-col gap-1 items-center mx-auto pt-4   ">
-                <a href="https://play.google.com/store/apps/details?id=com.kalyanimotors.superapp&pli=1">
+                <a
+                  target="_blank"
+                  href="https://play.google.com/store/apps/details?id=com.kalyanimotors.superapp&pli=1"
+                >
                   <Image width={150} height={45} src={img1} alt="images" />
                 </a>
-                <a href="https://apps.apple.com/in/app/kalyani-motors-app/id6479185557">
+                <a
+                  target="_blank"
+                  href="https://apps.apple.com/in/app/kalyani-motors-app/id6479185557"
+                >
                   <Image width={150} height={45} src={img2} alt="images" />
                 </a>
               </div>
