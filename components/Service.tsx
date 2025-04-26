@@ -17,7 +17,7 @@ const Service = () => {
           valley of India – Bengaluru City.Bengaluru.
         </p>
       </div>
-      <div className=" hidden md:grid md:grid-cols-3 lg:grid-cols-4 gap-8 px-4  max-w-[85%] ">
+      <div className=" hidden md:grid md:grid-cols-3 lg:grid-cols-4 gap-8 px-4  max-w-[85%] cursor-pointer">
         <ServiceCard data={data} />
       </div>
       <div className=" md:hidden flex items-center gap-4">
