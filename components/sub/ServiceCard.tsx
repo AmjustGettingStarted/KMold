@@ -19,7 +19,7 @@ const ServiceCard: React.FC<CardProp> = ({ data }) => (
         key={index}
         className=" md:max-w-xs md:w-full w-[150px] rounded-md shadow-md  border border-gray-300 flex-none"
       >
-        <Link href={`/service/${item.title}`}>
+        <Link href={`/service/${item.title.replaceAll(" ", "_")}`}>
           <div className="w-[150px] md:w-full   h-[120px] flex items-center justify-center bg-[#F2F2F2] object-contain">
             <Image
               src={item.url}
