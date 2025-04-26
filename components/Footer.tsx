@@ -91,7 +91,7 @@ const Footer = () => {
                 </div>
                 {/* middle right */}
                 <div className="w-full lg:w-1/2 flex flex-col  items-start space-y-4 lg:-ml-12 justify-end pl-4 ">
-                  <span className="text-sm w-[100px] overflow-auto scrollbar-hidden ">
+                  <span className="text-sm sm:w-full w-[100px] overflow-auto scrollbar-hidden ">
                     customersupport@kalyanimotors.com
                   </span>
                   <span className="text-sm">9590990011</span>
@@ -105,7 +105,7 @@ const Footer = () => {
             </div>
           </div>
           {/* bottom line */}
-          <div className="w-full items-center text-center pt-8 pb-4 mb-[60px] sm:mb-0 px-2 sm:px-0">
+          <div className="w-full items-center text-center pt-8 pb-4  px-2 sm:px-0">
             <p className="text-xs font-semibold ">
               COPYRIGHT © 2022 KALYANI MOTORS PVT LTD, BANGALORE, INDIA |
               Designed by: Kalyani Motors
