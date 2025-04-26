@@ -5,7 +5,7 @@ import ScrollServiceCard from "./sub/ScrollServiceCard";
 
 const Service = () => {
   return (
-    <div className="py-4 md:py-12 px-4 flex flex-col space-y-4">
+    <div id="service" className="py-4 md:py-12 px-4 flex flex-col space-y-4">
       <div>
         <h1 className="text-xl  md:text-3xl font-bold">
           Car Services And Maintenance

@@ -5,7 +5,7 @@ import ScrollNewCar from "./sub/ScrollNewCar";
 
 const ChooseYourCar = () => {
   return (
-    <div className="flex flex-col py-4 sm:py-12 pb-4 px-2 sm:px-6">
+    <div className="flex flex-col py-4 sm:py-12 pb-4 px-2 sm:px-6" id="choose-cars">
       <div className="w-full flex items-center justify-between pb-6">
         <h1 className="text-lg sm:text-3xl font-bold">Choose Your Car</h1>
         <button className="py-2 px-4 uppercase bg-[#546BFF] text-white text-sm sm:text-base rounded-md shadow-lg">

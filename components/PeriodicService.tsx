@@ -22,7 +22,10 @@ export const data = [
 
 const PeriodicService = () => {
   return (
-    <div className="flex md:flex-row flex-col items-center w-full py-4 md:py-8 px-4 ">
+    <div
+      id="period-service"
+      className="flex md:flex-row flex-col items-center w-full py-4 md:py-8 px-4 "
+    >
       <div className="md:w-1/3 w-full">
         <div className="flex flex-col row-span-2 pb-4 ">
           <div className="pt-4 pb-6 md:pb-12 flex items-center justify-center">

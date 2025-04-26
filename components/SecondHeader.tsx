@@ -5,7 +5,6 @@ import { FaCarRear } from "react-icons/fa6";
 import { PiWhatsappLogoThin } from "react-icons/pi";
 import { IoCallOutline } from "react-icons/io5";
 import { IoLocationOutline } from "react-icons/io5";
-
 const SecondHeader = () => {
   return (
     <>
@@ -17,17 +16,18 @@ const SecondHeader = () => {
             alt="Kalyani Motors Logo"
             width={120}
             height={45}
+            className="cursor-pointer"
           />
         </div>
         {/* right part  */}
         <div className="grow overflow-x-auto lg:overflow-visible scrollbar-hidden basis-[55%]">
           <ul className="flex justify-between items-center space-x-6 whitespace-nowrap">
-            {navData.map((item: string, index: number) => (
+            {navData.map((item, index) => (
               <li
                 key={index}
                 className="capitalize cursor-pointer font-medium text-[#4a4a4a]"
               >
-                {item}
+                <a href={item.id}>{item.title}</a>
               </li>
             ))}
           </ul>

@@ -5,7 +5,10 @@ import ScrollNewCar from "./sub/ScrollNewCar";
 const NewCars = () => {
   return (
     <>
-      <div className="flex flex-col pt-4 sm:pt-12 pb-4 px-2 sm:px-6">
+      <div
+        className="flex flex-col pt-4 sm:pt-12 pb-4 px-2 sm:px-6"
+        id="all-cars"
+      >
         <div className="w-full flex items-center justify-between pb-6">
           <h1 className="text-lg whitespace-nowrap sm:text-3xl font-bold">
             Maruti Suzuki - New Cars

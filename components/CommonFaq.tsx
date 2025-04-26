@@ -9,7 +9,7 @@ import {
 
 const CommonFaq = () => {
   return (
-    <div className="py-4 sm:py-8 px-2 md:px-6">
+    <div id="faq" className="py-4 sm:py-8 px-2 md:px-6">
       <h1 className="text-lg md:text-3xl font-bold py-4 ">Common FAQ</h1>
       <Accordion type="single" collapsible className="w-full">
         <AccordionItem value="item-1" className="border-b-2 border-white ">

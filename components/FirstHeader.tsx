@@ -10,13 +10,15 @@ const FirstHeader = () => {
         {/* Header Left Section */}
         <div className="flex gap-2 items-center justify-start">
           <div>
-            <Image
-              src="https://www.kalyanimotors.com/static/media/kalyani_dark.5bca4adb5ec73478b2ce.png"
-              alt="Kalyani Motors Logo"
-              width={120}
-              height={45}
-              className="w-[100px] h-[40px] sm:w-[120px] sm:h-[45px] cursor-pointer"
-            />
+            <a href="#hero">
+              <Image
+                src="https://www.kalyanimotors.com/static/media/kalyani_dark.5bca4adb5ec73478b2ce.png"
+                alt="Kalyani Motors Logo"
+                width={120}
+                height={45}
+                className="w-[100px] h-[40px] sm:w-[120px] sm:h-[45px] cursor-pointer"
+              />
+            </a>
           </div>
           <div className="hidden sm:flex  items-center cursor-pointer">
             {/* <div className="hidden sm:flex flex-row gap-1 items-center cursor-pointer"> */}

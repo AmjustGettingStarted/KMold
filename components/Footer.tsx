@@ -17,7 +17,10 @@ const Footer = () => {
     <>
       {/* Upper Footer */}
       <footer>
-        <div className="w-full h-full overflowhi'  flex md:flex-row flex-col   bg-[#071C2C] text-white py-2 md:py-4 ">
+        <div
+          id="footer"
+          className="w-full h-full overflowhi'  flex md:flex-row flex-col   bg-[#071C2C] text-white py-2 md:py-4 "
+        >
           {data.map((footer, index) => (
             <div
               key={index}
