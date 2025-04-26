@@ -21,12 +21,7 @@ const FirstHeader = () => {
             </a>
           </div>
           <div className="hidden sm:flex  items-center cursor-pointer">
-            {/* <div className="hidden sm:flex flex-row gap-1 items-center cursor-pointer"> */}
             <SelectMenu />
-            {/* <span className="-tracking-tighter text-xs">Bengaluru</span>
-            <span className="opacity-50">
-              <IoIosArrowDown size={13} />
-            </span> */}
           </div>
         </div>
         {/* Header Right Section */}
