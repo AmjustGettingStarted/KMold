@@ -1,7 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
 import React from "react";
-// import { data } from "../../data/newCars";
 
 export interface Cars {
   id: number;
@@ -22,7 +21,7 @@ const Card: React.FC<CardProps> = ({ data }) => {
           key={car.id}
           className="max-w-sm min-w-[200px] rounded-md  border border-gray-200 h-full "
         >
-          <Link href={`/details/${car.title}`} replace>
+          <Link href={`/details/${car.title}`}>
             <div className="flex  items-center justify-center ">
               <Image
                 src={car.url}
