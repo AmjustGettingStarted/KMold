@@ -2,6 +2,7 @@ import React from "react";
 import Card from "./sub/Card";
 import { data } from "../data/newCars";
 import ScrollNewCar from "./sub/ScrollNewCar";
+import Link from "next/link";
 const NewCars = () => {
   return (
     <>
@@ -14,7 +15,7 @@ const NewCars = () => {
             Maruti Suzuki - New Cars
           </h1>
           <button className="py-2 px-4 uppercase bg-[#546BFF] text-white text-sm sm:text-base rounded-md shadow-lg">
-            view all cars
+            <Link href="/allCars">view all cars</Link>
           </button>
         </div>
         <div className="flex flex-row justify-start w-full gap-4 items-center border-b border-gray-200 ">

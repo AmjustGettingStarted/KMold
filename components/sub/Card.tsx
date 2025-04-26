@@ -1,4 +1,5 @@
 import Image from "next/image";
+import Link from "next/link";
 import React from "react";
 // import { data } from "../../data/newCars";
 
@@ -21,15 +22,17 @@ const Card: React.FC<CardProps> = ({ data }) => {
           key={car.id}
           className="max-w-sm min-w-[200px] rounded-md  border border-gray-200 h-full "
         >
-          <div className="flex  items-center justify-center ">
-            <Image
-              src={car.url}
-              alt={car.title}
-              width={100}
-              height={100}
-              className="w-full object-contain  rounded-t-md   "
-            />
-          </div>
+          <Link href="/details">
+            <div className="flex  items-center justify-center ">
+              <Image
+                src={car.url}
+                alt={car.title}
+                width={100}
+                height={100}
+                className="w-full object-contain  rounded-t-md   "
+              />
+            </div>
+          </Link>
           <div className="flex flex-col justify-between p-4 bg-[#F9F9F9] space-y-1 sm:space-y-2">
             <div className="space-y-1 sm:space-y-2">
               <h2
