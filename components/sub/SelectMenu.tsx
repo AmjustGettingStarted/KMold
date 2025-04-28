@@ -13,7 +13,7 @@ import {
 export function SelectMenu() {
   return (
     <Select>
-      <SelectTrigger className="w-[120px] text-gray-400 text-sm tracking-tighter border-none">
+      <SelectTrigger className="w-[120px] text-gray-400 text-sm tracking-tighter border-none shadow-none">
         <SelectValue
           placeholder="Bengaluru"
           className="-ml-2 placeholder:text-gray-400"
