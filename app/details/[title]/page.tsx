@@ -1,15 +1,21 @@
 "use client";
 import React from "react";
 import { useParams } from "next/navigation";
-import { data } from "../../../data/newCars";
+import { data as newCars } from "../../../data/newCars";
+import { CarData as chooseCars } from "../../../data/chooseCars";
+
 import { IoStarSharp } from "react-icons/io5";
 import HorizontalCard from "@/components/sub/HorizontalCard";
 
 const CarDetails = () => {
   const { title } = useParams() as { title: string };
-  const car = data.find(
-    (car) => car.title === decodeURIComponent(title).replaceAll("_", " ")
-  );
+  const car =
+    newCars.find(
+      (car) => car.title === decodeURIComponent(title).replaceAll("_", " ")
+    ) ||
+    chooseCars.find(
+      (car) => car.title === decodeURIComponent(title).replaceAll("_", " ")
+    );
   return (
     <div className="w-[80%] mx-auto py-6">
       {car ? (
