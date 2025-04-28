@@ -32,6 +32,7 @@ const HorizontalCard: React.FC<CardProps> = ({ carDetails }) => {
               alt={carDetails.title}
               width={500}
               height={500}
+              className="object-cover"
             />
           </div>
           {/* Bottom Display Images */}
