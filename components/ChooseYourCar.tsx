@@ -2,15 +2,21 @@ import React from "react";
 import Card from "./sub/Card";
 import { CarData } from "../data/chooseCars";
 import ScrollNewCar from "./sub/ScrollNewCar";
+import Link from "next/link";
 
 const ChooseYourCar = () => {
   return (
-    <div className="flex flex-col py-4 sm:py-12 pb-4 px-2 sm:px-6" id="choose-cars">
+    <div
+      className="flex flex-col py-4 sm:py-12 pb-4 px-2 sm:px-6"
+      id="choose-cars"
+    >
       <div className="w-full flex items-center justify-between pb-6">
         <h1 className="text-lg sm:text-3xl font-bold">Choose Your Car</h1>
-        <button className="py-2 px-4 uppercase bg-[#546BFF] text-white text-sm sm:text-base rounded-md shadow-lg">
-          view all cars
-        </button>
+        <Link href="/allCars">
+          <button className="py-2 px-4 uppercase bg-[#546BFF] text-white text-sm sm:text-base rounded-md shadow-lg cursor-pointer">
+            view all cars
+          </button>
+        </Link>
       </div>
       <div className="flex flex-row justify-start w-full gap-4 items-center border-b border-gray-200 ">
         <h1 className="text-gray-400 px-2 text-lg border-b-2 border-transparent  hover:text-[#00AFA0]  hover:border-b-2 hover:border-[#00AFA0] cursor-pointer">
