@@ -8,7 +8,7 @@ import Link from "next/link";
 const FirstHeader = () => {
   return (
     <header>
-      <div className="sm:static z-20 fixed top-0 left-0 bg-white flex justify-between w-full items-center py-2 px-5 ">
+      <div className="sm:static z-20 fixed top-0 left-0 bg-white flex justify-between w-full items-center py-2 px-5 shadow-md">
         {/* Header Left Section */}
         <div className="flex gap-2 items-center justify-start">
           <div>
@@ -25,7 +25,7 @@ const FirstHeader = () => {
               />
             </Link>
           </div>
-          <div className="hidden sm:flex  items-center cursor-pointer">
+          <div className="hidden sm:flex  items-center cursor-pointer border-none">
             <SelectMenu />
           </div>
         </div>
