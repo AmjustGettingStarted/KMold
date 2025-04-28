@@ -33,9 +33,9 @@ const CarDetails = () => {
           </div>
           {/* horizontal Card car details */}
           <div className="w-full">
-            <div>
-              <div className="shadow-sm py-1 sticky">
-                <ul className="flex gap-6  uppercase justify-start w-full text-[#474747] px-4 text-base ">
+            <div className="">
+              <div className="shadow-sm py-1  ">
+                <ul className="flex gap-6  uppercase justify-start w-full text-[#474747] px-4 text-[15px] ">
                   <li>overview</li>
                   <li>images</li>
                   <li>colors</li>
@@ -44,7 +44,7 @@ const CarDetails = () => {
                   <li>description</li>
                 </ul>
               </div>
-              <div className="">
+              <div className="py-2">
                 <HorizontalCard carDetails={car} />
               </div>
             </div>
