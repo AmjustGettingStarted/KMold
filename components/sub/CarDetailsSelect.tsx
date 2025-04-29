@@ -1,5 +1,5 @@
 import * as React from "react";
-
+import { variants } from "@/data/carVariants";
 import {
   Select,
   SelectContent,
@@ -13,30 +13,24 @@ import {
 export function CarDetailsSelect({ title }: { title: string }) {
   return (
     <Select>
-      <SelectTrigger className="w-[120px] text-sm tracking-tighter border-none">
-        <SelectValue placeholder={title} className=" w-[200px] -ml-2 " />
+      <SelectTrigger className="px-2 text-[13px] tracking-tighter border border-gray-300 rounded-xs size-[200px]">
+        <SelectValue
+          placeholder={title}
+          className="-ml-2 placeholder:text-black "
+        />
       </SelectTrigger>
       <SelectContent className="border-none ">
         <SelectGroup>
           <SelectLabel></SelectLabel>
-          <SelectItem
-            className="text-gray-400 hover:text-gray-400"
-            value="value"
-          >
-            {title}
-          </SelectItem>
-          <SelectItem
-            className="text-gray-400 hover:text-gray-400"
-            value="value"
-          >
-            other...
-          </SelectItem>
-          <SelectItem
-            className="text-gray-400 hover:text-gray-400"
-            value="Mysore"
-          >
-            other...
-          </SelectItem>
+          {variants.map((item, i) => (
+            <SelectItem
+              className="text-black hover:bg-gray-500 hover:text-white"
+              value={item.title}
+              key={i}
+            >
+              {i === 0 ? title : item.title}
+            </SelectItem>
+          ))}
         </SelectGroup>
       </SelectContent>
     </Select>
