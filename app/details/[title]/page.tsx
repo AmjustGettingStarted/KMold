@@ -7,6 +7,7 @@ import { CarData as chooseCars } from "../../../data/chooseCars";
 import { IoStarSharp } from "react-icons/io5";
 import HorizontalCard from "@/components/sub/HorizontalCard";
 import { keySpec } from "@/data/keySpecifications";
+import { CarDetailsScrollArea } from "@/components/sub/CarDetailsScrollArea";
 const CarDetails = () => {
   const { title } = useParams() as { title: string };
   const car =
@@ -35,7 +36,7 @@ const CarDetails = () => {
           <div className="w-full">
             <div className="">
               <div className="shadow-lgē py-1  ">
-                <ul className="flex gap-6  uppercase justify-start w-full text-[#474747] px-4 text-[15px] ">
+                <ul className="flex gap-6  uppercase justify-start w-full text-[#474747] px-4 text-[15px] shadow-md ">
                   <li>overview</li>
                   <li>images</li>
                   <li>colors</li>
@@ -64,6 +65,13 @@ const CarDetails = () => {
                 </div>
               ))}
             </div>
+          </div>
+          {/* Car Variants */}
+          <div className="flex flex-col gap-4">
+            <h1 className="text-xl font-bold text-[#484848]">
+              Related Model Variants...
+            </h1>
+            <CarDetailsScrollArea />
           </div>
         </>
       ) : (
