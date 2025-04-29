@@ -51,13 +51,16 @@ const CarDetails = () => {
             </div>
           </div>
           {/* Key Specifications */}
-          <div className="flex flex-col">
-            <h1>Key Specifications</h1>
+          <div className="flex flex-col py-6 gap-4">
+            <h1 className="text-2xl font-bold ">Key Specifications</h1>
             <div className="w-full grid grid-cols-2">
               {keySpec.map((item, i) => (
-                <div key={i}>
-                  <h1>{item.key}</h1>
-                  <h2>{item.val}</h2>
+                <div
+                  key={i}
+                  className="bg-[#fbfbfb] flex flex-col py-2 pl-2 border border-gray-200"
+                >
+                  <h1 className="text-[12px] text-[#aaaaaa]">{item.key}</h1>
+                  <h2 className="font-semibold">{item.val}</h2>
                 </div>
               ))}
             </div>
