@@ -51,7 +51,7 @@ const CarDetails = () => {
             </div>
           </div>
           {/* Key Specifications */}
-          <div className="flex flex-col py-6 gap-4">
+          <div className="flex flex-col py-6 gap-4 w-[95%]">
             <h1 className="text-2xl font-bold ">Key Specifications</h1>
             <div className="w-full grid grid-cols-2">
               {keySpec.map((item, i) => (
