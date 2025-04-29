@@ -6,7 +6,7 @@ import { CarData as chooseCars } from "../../../data/chooseCars";
 
 import { IoStarSharp } from "react-icons/io5";
 import HorizontalCard from "@/components/sub/HorizontalCard";
-
+import { keySpec } from "@/data/keySpecifications";
 const CarDetails = () => {
   const { title } = useParams() as { title: string };
   const car =
@@ -48,6 +48,18 @@ const CarDetails = () => {
               <div className="py-2">
                 <HorizontalCard carDetails={car} />
               </div>
+            </div>
+          </div>
+          {/* Key Specifications */}
+          <div className="flex flex-col">
+            <h1>Key Specifications</h1>
+            <div className="w-full grid grid-cols-2">
+              {keySpec.map((item, i) => (
+                <div key={i}>
+                  <h1>{item.key}</h1>
+                  <h2>{item.val}</h2>
+                </div>
+              ))}
             </div>
           </div>
         </>
