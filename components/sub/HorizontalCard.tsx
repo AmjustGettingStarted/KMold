@@ -3,7 +3,7 @@ import Image from "next/image";
 import React, { useState } from "react";
 import { CarDetailsSelect } from "./CarDetailsSelect";
 import { carImage } from "@/data/carDetailsImages";
-
+import { DialogDemo } from "./Dialog";
 export interface Cars {
   id: number;
   url: string;
@@ -19,14 +19,22 @@ const HorizontalCard: React.FC<CardProps> = ({ carDetails }) => {
   const handleClick = (id: number) => {
     setIniImage(id === 0 ? carDetails.url : carImage[id].image);
   };
+  const [modelOpen, setModelOpen] = useState(false);
+  const handleClickModelClick = (title: string) => {
+    setModelOpen(true);
+    setDialogTitle(title); //
+  };
+
+  // sending title of the button to the dialogue box
+  const [dialogTitle, setDialogTitle] = React.useState("");
 
   return (
-    <div className="w-full border border-gray-300">
+    <div className="w-full border border-gray-300 rounded-md">
       <div className="grid grid-cols-2">
         {/* left side */}
-        <div className="w-full flex flex-col space-y-2">
+        <div className="w-full flex flex-col space-y-2 p-2">
           {/* Top Image */}
-          <div className="flex items-center justify-center object-contain bg-[#f5deb3]">
+          <div className="flex items-center justify-center object-contain bg-[#f5deb3] ">
             <Image
               src={iniImage}
               alt={carDetails.title}
@@ -74,21 +82,38 @@ const HorizontalCard: React.FC<CardProps> = ({ carDetails }) => {
             <div className="flex justify-between items-center px-4 py-2 bg-[#fbfbfb]">
               <div className="flex flex-col leading-tight ">
                 <p>Calculate Your EMI</p>
-                <p className="text-xs text-[#477Ed6] font-semibold">
+                <p className="text-xs text-[#477Ed6] font-semibold ">
                   EMI calculator
                 </p>
               </div>
-              <button className="border text-sm px-6 py-2 text-[#00afa0] border-[#00afa0]">
+              <button
+                className="border text-sm px-6 py-2 text-[#00afa0] border-[#00afa0] cursor-pointer"
+                onClick={() => handleClickModelClick("Get EMI Offer")}
+              >
                 Get Emi Offer
               </button>
             </div>
-            <h1 className="text-[#0288D1]">Get on-road Price</h1>
-            <button className="text-xl text-white font-bold bg-[#e53012]  py-2 w-[60%]">
+            <h1
+              className="text-[#0288D1] cursor-pointer"
+              onClick={() => handleClickModelClick("Get on-road Price")}
+            >
+              Get on-road Price
+            </h1>
+            <button
+              className="text-xl text-white font-bold bg-[#e53012]  py-2 w-[60%] cursor-pointer"
+              onClick={() => handleClickModelClick("Get Best Offers")}
+            >
               Get Best Offers
             </button>
           </div>
         </div>
       </div>
+      {/* Dialogue Box */}
+      <DialogDemo
+        emiOpen={modelOpen}
+        setModelOpen={setModelOpen}
+        dialogTitle={dialogTitle}
+      />
     </div>
   );
 };
