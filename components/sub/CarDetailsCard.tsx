@@ -14,7 +14,7 @@ export function CarDetailsCard({ data }: { data: Prop[] }) {
     <>
       {data.map((item, i) => (
         <Card
-          className="w-[210px] border-none shadow-none hover:shadow-xl shadow-black"
+          className="w-[210px] border-none rounded-sm shadow-none hover:shadow-xl shadow-black"
           key={i}
         >
           <CardContent>
