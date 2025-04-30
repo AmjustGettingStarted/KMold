@@ -32,7 +32,7 @@ const HorizontalCard: React.FC<CardProps> = ({ carDetails }) => {
     <div className="w-full border border-gray-300 rounded-md">
       <div className="flex flex-col md:grid md:grid-cols-2">
         {/* left side */}
-        <div className="w-full flex flex-col space-y-2 p-0 md:p-2">
+        <div className="w-full flex flex-col space-y-2">
           {/* Top Image */}
           <div className="flex items-center justify-center object-cover md:object-contain bg-[#fff] ">
             <Image
@@ -40,11 +40,11 @@ const HorizontalCard: React.FC<CardProps> = ({ carDetails }) => {
               alt={carDetails.title}
               width={500}
               height={500}
-              className="object-cover rounded-t-md"
+              className="object-cover rounded-tl-md"
             />
           </div>
           {/* Bottom Display Images */}
-          <div className="w-full grid grid-cols-10  lg:grid-cols-9 gap-2 p-1 md:p-2">
+          <div className="w-full grid grid-cols-11 sm:grid-cols-12 md:grid-cols-8  lg:grid-cols-9 gap-2 p-1 md:p-2">
             {carImage.map((item, index) => (
               <div
                 key={index}
