@@ -23,12 +23,12 @@ const CarDetails = () => {
       (car) => car.title === decodeURIComponent(title).replaceAll("_", " ")
     );
   return (
-    <div className="w-[80%] mx-auto py-6">
+    <div className="w-full lg:w-[80%] mx-auto py-6 mt-[50px] sm:mt-0">
       {car ? (
         <>
           {/* top heading */}
-          <div className="flex flex-col">
-            <h1 className="text-2xl font-semibold">{car.title}</h1>
+          <div className="flex flex-col px-4">
+            <h1 className="text-sm md:text-2xl font-semibold">{car.title}</h1>
             <div className="flex gap-2 py-4 text-[#00afa0]">
               <IoStarSharp />
               <IoStarSharp />
@@ -38,10 +38,10 @@ const CarDetails = () => {
             </div>
           </div>
           {/* horizontal Card car details */}
-          <div className="w-full">
+          <div className="w-full px-4 lg:px-0">
             <div className="">
-              <div className="shadow-lgē py-1  ">
-                <ul className="flex gap-6  uppercase justify-start w-full text-[#474747] px-4 text-[15px] shadow-md ">
+              <div className="shadow-lg py-1 hidden md:flex  ">
+                <ul className="flex gap-6  uppercase justify-start w-full text-[#474747] px-4 text-[15px]  ">
                   <li>overview</li>
                   <li>images</li>
                   <li>colors</li>
@@ -57,23 +57,29 @@ const CarDetails = () => {
             </div>
           </div>
           {/* Key Specifications */}
-          <div className="flex flex-col py-6 gap-4 w-[95%]">
-            <h1 className="text-2xl font-bold ">Key Specifications</h1>
+          <div className="flex flex-col py-3 md:py-6 gap-4 w-[85%] md:w-[95%] px-4">
+            <h1 className="text-sm md:text-2xl font-bold ">
+              Key Specifications
+            </h1>
             <div className="w-full grid grid-cols-2">
               {keySpec.map((item, i) => (
                 <div
                   key={i}
                   className="bg-[#fbfbfb] flex flex-col py-2 pl-2 border border-gray-200"
                 >
-                  <h1 className="text-[12px] text-[#aaaaaa]">{item.key}</h1>
-                  <h2 className="font-semibold">{item.val}</h2>
+                  <h1 className="text-[10px] md:text-[12px] text-[#aaaaaa]">
+                    {item.key}
+                  </h1>
+                  <h2 className="text-[11.5px] md:text-base font-semibold">
+                    {item.val}
+                  </h2>
                 </div>
               ))}
             </div>
           </div>
           {/* Car Variants */}
-          <div className="flex flex-col gap-4">
-            <h1 className="text-xl font-bold text-[#484848]">
+          <div className="flex flex-col gap-4 px-4 md:px-0">
+            <h1 className="text-sm md:text-xl font-bold text-[#181818]">
               Related Model Variants...
             </h1>
             <CarDetailsScrollArea />

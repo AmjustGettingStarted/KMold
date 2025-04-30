@@ -29,13 +29,18 @@ export function CarDetailsCard({ data }: { data: Prop[] }) {
               />
             </CardContent>
             <CardFooter className="flex flex-col items-start p-1">
-              <h1 className="font-bold" title={item.title}>
-                {item.title.length < 20
+              <h1
+                className="font-bold text-[12px] md:text-base"
+                title={item.title}
+              >
+                {item.title.length < 25
                   ? item.title
-                  : item.title.slice(0, 20) + "..."}
+                  : item.title.slice(0, 25) + "..."}
               </h1>
-              <h2>{item.price}</h2>
-              <p className="text-xs text-[#828181]">Ex-showroom Price</p>
+              <h2 className="text-[11px] md:text-base">{item.price}</h2>
+              <p className="text-[11.2px] md:text-xs text-[#828181]">
+                Ex-showroom Price
+              </p>
             </CardFooter>
           </Link>
         </Card>

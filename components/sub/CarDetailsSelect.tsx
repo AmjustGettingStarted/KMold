@@ -13,13 +13,14 @@ import {
 export function CarDetailsSelect({ title }: { title: string }) {
   const router = useRouter();
 
+  // For re-directing the page to the given url
   const handleVariantChange = (value: string) => {
-    router.push(`/details/${value.replaceAll(" ", "_")}`);
+    router.push(`/details/${encodeURIComponent(value.replaceAll(" ", "_"))}`);
   };
 
   return (
     <Select onValueChange={handleVariantChange}>
-      <SelectTrigger className="px-2 text-[13px] tracking-tighter border border-gray-300 rounded-xs size-[200px]">
+      <SelectTrigger className="px-2 text-[13px] w-full tracking-tighter border border-gray-300 rounded-xs lg:size-max">
         <SelectValue
           placeholder={title}
           className="-ml-2 placeholder:text-black"
