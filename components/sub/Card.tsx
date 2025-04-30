@@ -26,9 +26,9 @@ const Card: React.FC<CardProps> = ({ data }) => {
               <Image
                 src={car.url}
                 alt={car.title}
-                width={100}
-                height={100}
-                className="w-full object-contain  rounded-t-md   "
+                width={900}
+                height={600}
+                className="w-full object-contain  rounded-t-md "
               />
             </div>
           </Link>
