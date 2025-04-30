@@ -19,7 +19,7 @@ const Card: React.FC<CardProps> = ({ data }) => {
       {data.map((car) => (
         <div
           key={car.id}
-          className="max-w-sm min-w-[200px] rounded-md  border border-gray-200 h-full "
+          className=" max-w-2xs sm:max-w-sm    rounded-md  border border-gray-200 h-full "
         >
           <Link href={`/details/${car.title.replaceAll(" ", "_")}`}>
             <div className="flex  items-center justify-center ">
