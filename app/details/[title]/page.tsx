@@ -57,7 +57,7 @@ const CarDetails = () => {
             </div>
           </div>
           {/* Key Specifications */}
-          <div className="flex flex-col py-3 md:py-6 gap-4 w-[85%] md:w-[95%] px-4">
+          <div className="flex flex-col py-3 md:py-6 gap-4 w-full  px-4">
             <h1 className="text-sm md:text-2xl font-bold ">
               Key Specifications
             </h1>
