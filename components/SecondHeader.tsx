@@ -5,6 +5,7 @@ import { FaCarRear } from "react-icons/fa6";
 import { PiWhatsappLogoThin } from "react-icons/pi";
 import { IoCallOutline } from "react-icons/io5";
 import { IoLocationOutline } from "react-icons/io5";
+import Link from "next/link";
 const SecondHeader = () => {
   return (
     <>
@@ -27,7 +28,7 @@ const SecondHeader = () => {
                 key={index}
                 className="capitalize cursor-pointer font-medium text-[#4a4a4a]"
               >
-                <a href={item.id}>{item.title}</a>
+                <Link href={item.id}>{item.title}</Link>
               </li>
             ))}
           </ul>
