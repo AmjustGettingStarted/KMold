@@ -140,7 +140,7 @@ const Footer = () => {
             </div>
           </div>
           {/* bottom line */}
-          <div className="w-full items-center text-center pt-8 pb-4  px-2 sm:px-0">
+          <div className="w-full items-center text-center pt-8  pb-[75px] sm:pb-4 px-2 sm:px-0">
             <p className="text-xs font-semibold ">
               COPYRIGHT © 2022 KALYANI MOTORS PVT LTD, BANGALORE, INDIA |
               Designed by: Kalyani Motors
