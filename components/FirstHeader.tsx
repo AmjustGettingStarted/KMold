@@ -12,10 +12,7 @@ const FirstHeader = () => {
         {/* Header Left Section */}
         <div className="flex gap-2 items-center justify-start">
           <div>
-            <Link
-              href="#hero"
-              onClick={() => window.history.replaceState(null, "", "/")}
-            >
+            <Link href="/">
               <Image
                 src="https://www.kalyanimotors.com/static/media/kalyani_dark.5bca4adb5ec73478b2ce.png"
                 alt="Kalyani Motors Logo"
