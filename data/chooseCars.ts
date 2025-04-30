@@ -1,11 +1,11 @@
-// export interface Cars {
-//   id: number;
-//   url: string;
-//   title: string;
-//   price: string;
-// }
+interface Cars {
+  id: number;
+  url: string;
+  title: string;
+  price: string;
+}
 
-export const CarData = [
+export const CarData: Cars[] = [
   {
     url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/images/uIMTQMSrTU_0_1715842126.jpg",
     title: "Maruti Suzuki Alto",
