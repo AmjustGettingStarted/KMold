@@ -416,7 +416,7 @@ export const services: Prop = {
   ],
   Car_Care_Service: [
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/RC4tndOZ2I_1649770871.png",
       title: "Body Polish",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Not Applicable",
@@ -424,7 +424,7 @@ export const services: Prop = {
       time: "2 to 3 Hours",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/IxusDeyTdB_1649770923.png",
       title: "Antirust Coating",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Not Applicable",
@@ -432,7 +432,7 @@ export const services: Prop = {
       time: "4 to 6 Hours",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/fWMqjr2VEB_1649770958.png",
       title: "Upholstery",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Not Applicable",
