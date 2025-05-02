@@ -16,7 +16,7 @@ interface CardProps {
 
 const ServicePageScrollHeader: React.FC<CardProps> = ({ data }) => {
   return (
-    <ScrollArea className="w-full  mx-4 whitespace-nowrap rounded-md border mt-10  flex items-center">
+    <ScrollArea className="w-full mx-auto whitespace-nowrap  border mt-10  flex items-center">
       <div className="flex w-full space-x-2  bg-white my-2 mx-2">
         {/* Scroll Content */}
         {data.map((item, i) => (
