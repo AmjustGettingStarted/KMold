@@ -292,7 +292,7 @@ export const services: Prop = {
   ],
   AC_Service_And_Repair: [
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/WWYu0pMicR_1649770412.png",
       title: "AC Service & Repair",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1 Month whichever is earlier",
@@ -304,7 +304,7 @@ export const services: Prop = {
       time: "4 to 6 Hours and depends upon part availability & repair",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/pcYqX6tiNL_1649770458.png",
       title: "AC Replacement",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1 Month whichever is earlier",
@@ -316,7 +316,7 @@ export const services: Prop = {
       time: "4 to 6 Hours and depends upon part availability & repair",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/Wr49TSg5i6_1649770498.png",
       title: "A/C Gas Charging Full",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Not Applicable",
@@ -324,7 +324,7 @@ export const services: Prop = {
       time: "4 to 6 Hours and depends upon the repair",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/n9YrVxUqMl_1649770543.png",
       title: "A/C Gas Leakage Check",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Not Applicable",
@@ -336,7 +336,7 @@ export const services: Prop = {
       time: "4 to 6 Hours and depends upon the repair",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/Df40WdbzlF_1649770591.png",
       title: "Blower Motor Cleaning",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Not Applicable",
@@ -344,7 +344,7 @@ export const services: Prop = {
       time: "4 to 6 Hours and depends upon the repair",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/jtAtCK32L2_1649770636.png",
       title: "AC Condensor Assy R&R",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1 Month whichever is earlier",
@@ -358,7 +358,7 @@ export const services: Prop = {
   ],
   Battery: [
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/ttbl7M0mUn_1649770412.png",
       title: "BATTERY 38B20L",
       desc1: "As and when required as per the vehicle condition",
       desc2: "As per the warranty prescribed by the manufacturer",
@@ -366,7 +366,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/YuHrVIHA2h_1649770451.png",
       title: "BATTERY DIN 50",
       desc1: "As and when required as per the vehicle condition",
       desc2: "As per the warranty prescribed by the manufacturer",
@@ -374,7 +374,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/Um3qWTIPpO_1649770473.png",
       title: "BATTERY 38B20R",
       desc1: "As and when required as per the vehicle condition",
       desc2: "As per the warranty prescribed by the manufacturer",
@@ -382,7 +382,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/IRFAwrkeHu_1649770498.png",
       title: "BATTERY DIN 70",
       desc1: "As and when required as per the vehicle condition",
       desc2: "As per the warranty prescribed by the manufacturer",
@@ -390,7 +390,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/N16VWoEHYt_1649770573.png",
       title: "BATTERY N55",
       desc1: "As and when required as per the vehicle condition",
       desc2: "As per the warranty prescribed by the manufacturer",
@@ -398,7 +398,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/Rc7jtA2Pey_1649770604.png",
       title: "BATTERY DIN65",
       desc1: "As and when required as per the vehicle condition",
       desc2: "As per the warranty prescribed by the manufacturer",
@@ -406,7 +406,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/PQZSH3Yoen_1649770623.png",
       title: "BATTERY DIN66",
       desc1: "As and when required as per the vehicle condition",
       desc2: "As per the warranty prescribed by the manufacturer",
