@@ -1,11 +1,6 @@
 import * as React from "react";
 import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
 import ServiceCard from "./ServiceCard";
-export interface Artwork {
-  artist: string;
-  art: string;
-}
-
 export interface Card {
   url: string;
   title: string;

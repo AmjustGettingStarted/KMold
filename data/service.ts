@@ -6,12 +6,12 @@ export const data = [
   },
   {
     url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/service/sNDmocsT2q_1649936696.png",
-    title: "Repair & Maintenance",
+    title: "Repair And Maintenance",
     desc: "We value your Time - Experience Express Service.",
   },
   {
     url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/service/awrO9DHAmN_1649936712.png",
-    title: "AC Service & Repair",
+    title: "AC Service And Repair",
     desc: "You deserve a cool cabin in hot summer!",
   },
   {
@@ -26,7 +26,7 @@ export const data = [
   },
   {
     url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/service/WMN0wFdM9v_1649936788.png",
-    title: "Tyres & Wheel Care",
+    title: "Tyres And Wheel Care",
     desc: "Get your tyres replaced with recommended brands.",
   },
   {
