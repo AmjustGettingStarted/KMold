@@ -23,7 +23,7 @@ const CarDetails = () => {
       (car) => car.title === decodeURIComponent(title).replaceAll("_", " ")
     );
   return (
-    <div className="w-full lg:w-[80%] mx-auto py-6 mt-[50px] sm:mt-0">
+    <div className="w-full lg:w-[80%] mx-auto py-6 mt-[50px] ">
       {car ? (
         <>
           {/* top heading */}
@@ -38,10 +38,11 @@ const CarDetails = () => {
             </div>
           </div>
           {/* horizontal Card car details */}
-          <div className="w-full px-4 lg:px-0">
+          <div className="w-full px-4 lg:px-0 ">
             <div className="">
-              <div className="shadow-lg py-1 hidden md:flex  ">
-                <ul className="flex gap-6  uppercase justify-start w-full text-[#474747] px-4 text-[15px]  ">
+              <div className="shadow-lg py-2 hidden md:flex sticky z-10 top-[60px] bg-white">
+                {/* Sticky car description header */}
+                <ul className="flex gap-6 cursor-not-allowed    uppercase justify-start w-full text-[#474747] px-4 text-[15px]  ">
                   <li>overview</li>
                   <li>images</li>
                   <li>colors</li>

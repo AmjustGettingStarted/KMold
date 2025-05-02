@@ -5,10 +5,20 @@ import MarutiSuzuki from "../assets/maruti_suzuki.png";
 import Call from "../assets/call.png";
 import { SelectMenu } from "./sub/SelectMenu";
 import Link from "next/link";
+import { usePathname } from "next/navigation";
 const FirstHeader = () => {
+  const pathName = usePathname();
+  const isDetailsPage =
+    pathName.includes("details") ||
+    pathName.includes("service") ||
+    pathName.includes("allCars");
   return (
     <header>
-      <div className="sm:static z-20 fixed top-0 left-0 bg-white flex justify-between w-full items-center py-2 px-5 shadow-md">
+      <div
+        className={`sm:static z-20  ${
+          isDetailsPage ? "!fixed" : "!md:flex"
+        } top-0 left-0 bg-white flex justify-between w-full items-center py-2 px-5 shadow-md`}
+      >
         {/* Header Left Section */}
         <div className="flex gap-2 items-center justify-start">
           <div>

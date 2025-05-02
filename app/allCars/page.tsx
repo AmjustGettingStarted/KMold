@@ -12,10 +12,11 @@ const AllCars = () => {
   const [cdata, setCdata] = useState(allCars);
   return (
     <>
-      <div className="w-full sm:p-6 p-3 mt-[60px] sm:mt-0 ">
+      <div className="w-full sm:p-6 p-3 mt-[50px] ">
         <h1 className="text-lg sm:text-3xl font-bold">
           Maruti Suzuki - All Cars
         </h1>
+
         {/* TABS section */}
         <div className="relative pt-2 sm:pt-4 ">
           <Tabs defaultValue="all-cars" className="w-full">
@@ -68,10 +69,7 @@ const AllCars = () => {
                       key={i}
                       href={`/details/${item.title.replaceAll(" ", "_")}`}
                     >
-                      <div
-                        className="max-w-sm border border-gray-300 rounded-sm cursor-pointer"
-                        key={i}
-                      >
+                      <div className="max-w-sm border border-gray-300 rounded-sm cursor-pointer">
                         <div>
                           <Image
                             width={900}
