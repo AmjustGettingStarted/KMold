@@ -580,7 +580,7 @@ export const services: Prop = {
   ],
   Accessories: [
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/1MGjtgF19w_1650087728.png",
       title: "Body Cover",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -588,7 +588,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/MUz2eme5PN_1650087763.png",
       title: "Perfumes",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -596,7 +596,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/4z1tnufB2B_1650087787.png",
       title: "Mirrors",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -604,7 +604,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/Vurznr6odG_1650087813.png",
       title: "Mats",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -612,7 +612,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/p6zSqvPe2E_1650087843.png",
       title: "Seat Cover",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -620,7 +620,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/QbV29Fk77x_1650087869.png",
       title: "Steering Wheel Cover",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -628,7 +628,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/LNGwlNjrZm_1650087895.png",
       title: "God Idols",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -636,7 +636,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/gQktztNVGk_1650088031.png",
       title: "Alloy Wheels",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -644,7 +644,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/uPsNKkkejs_1650088085.png",
       title: "Body Graphics",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -652,7 +652,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/oZOWATKfwA_1650088260.png",
       title: "Speaker Set",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -660,7 +660,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/vTRTqoTDqu_1650088630.png",
       title: "Amplifier & Woofer",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -668,7 +668,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/eNcJjZ5S3k_1650089137.png",
       title: "Microfiber Cloths",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -676,7 +676,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/xKRPk8hySK_1650089172.png",
       title: "Wheel Cover",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -684,7 +684,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/8iA8Ijd0oA_1650089200.png",
       title: "Wheel Cap",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
@@ -692,7 +692,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/ljZfvadQno_1650089271.png",
       title: "Car Care Kit",
       desc1: "As and when required as per the vehicle condition",
       desc2: "Within 3000 kilometers or 1Month whichever is earlier",
