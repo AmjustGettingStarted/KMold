@@ -10,6 +10,8 @@ import { IoIosCheckmark } from "react-icons/io";
 import { Hero } from "@/components/Hero";
 import CommonFaq from "@/components/CommonFaq";
 import NewCars from "@/components/NewCars";
+import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
+import { DialogDemo } from "@/components/sub/Dialog";
 
 const Service = () => {
   const { title } = useParams() as { title: string };
@@ -33,47 +35,50 @@ const Service = () => {
                 key={i}
                 className="w-[98%] h-full mx-auto bg-white  border border-gray-200 px-4 py-2  "
               >
-                <div className=" flex-col flex  sm:flex-row  w-full">
+                <div className=" flex-col flex  sm:flex-row  w-full sm:gap-4">
                   {/* Image section */}
-                  <div className="w-full sm:w-[20%] flex  justify-center sm:justify-start">
+                  <div className="w-full sm:w-[30%] md:w-[20%] min-w-[200px] flex  justify-center sm:justify-start ">
                     <Image
                       src={item.url}
                       alt={item.title}
                       width={501}
                       height={501}
-                      className="w-[200px] h-[200px] object-"
+                      className="w-[150px] h-[150px] sm:w-[200px] sm:h-[200px] rounded-sm object-cover shrink-0"
                     />
                   </div>
                   {/* Description Section */}
-                  <div className="w-full sm:w-[80%] h-full py-2">
+                  <div className="w-full sm:w-[70%]  md:w-[80%] h-full py-2 ">
                     <div className="flex flex-col w-full  items-start justify-start">
                       <div className="flex items-center justify-between w-full ">
-                        <h1 key={i} className="w-full text-lg font-bold ">
+                        <h1
+                          key={i}
+                          className="w-full text-sm sm:text-lg font-bold "
+                        >
                           {item.title}
                         </h1>
-                        <h2 className="whitespace-nowrap text-[12px] tracking-tight bg-[#e5e7e9] text-[#707171] w-[40%] text-center py-1">
+                        <h2 className="whitespace-nowrap text-[12px] tracking-tight bg-[#e5e7e9] text-[#707171] w-auto sm:w-[40%] px-4 text-center py-1">
                           {item.time}
                         </h2>
                       </div>
                       <div className="w-full py-2">
                         <ul
-                          className="flex items-center list-disc marker:text-[#707171]/50 marker:pr-0
-                        marker:text-xs justify-start gap-6 pl-4"
+                          className="flex list-disc marker:text-[#707171]/50 marker:pr-0
+                        marker:text-xs justify-start gap-2 sm:gap-6 pl-4"
                         >
                           <li className="pl-0 ">
-                            <p className="text-[#707171] text-sm">
+                            <p className="text-[#707171] text-xs sm:text-sm w-full">
                               {item.desc1}
                             </p>
                           </li>
-                          <li className="pl-0 ">
-                            <p className="text-[#707171] text-sm ">
+                          <li className="pl-0  ">
+                            <p className="text-[#707171] text-xs sm:text-sm w-full ">
                               {item.desc2}
                             </p>
                           </li>
                         </ul>
                       </div>
                       <div className="w-full py-2">
-                        <ul className="w-full grid sm:grid-cols-2 sm:justify-between space-y-3">
+                        <ul className="w-full grid lg:grid-cols-2 sm:justify-between space-y-3">
                           {item.service.map((serv, j) => (
                             <li className="flex gap-2 items-center " key={j}>
                               <div className=" flex items-center justify-center w-4 h-4 rounded-full bg-[#D2EFE0] text-[#26B26B]">
@@ -86,7 +91,8 @@ const Service = () => {
                           ))}
                         </ul>
                       </div>
-                      <Button className="text-[#e73c33] font-bold  border border-[#e73c33] bg-white rounded-xs my-2">
+
+                      <Button className="text-[#e73c33] font-bold  border border-[#e73c33] bg-white rounded-xs my-2 cursor-not-allowed hover:bg-white hover:text-[#e73c33] hover:border-[#e73c33]">
                         Book Your Service
                       </Button>
                     </div>
