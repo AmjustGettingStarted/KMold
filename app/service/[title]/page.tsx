@@ -10,8 +10,6 @@ import { IoIosCheckmark } from "react-icons/io";
 import { Hero } from "@/components/Hero";
 import CommonFaq from "@/components/CommonFaq";
 import NewCars from "@/components/NewCars";
-import { Dialog, DialogContent, DialogTrigger } from "@/components/ui/dialog";
-import { DialogDemo } from "@/components/sub/Dialog";
 
 const Service = () => {
   const { title } = useParams() as { title: string };
