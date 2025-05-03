@@ -21,7 +21,7 @@ const ServicePageScrollHeader: React.FC<CardProps> = ({ data }) => {
         {/* Scroll Content */}
         {data.map((item, i) => (
           <Link key={i} href={`/service/${item.title.replaceAll(" ", "_")}`}>
-            <div className="w-[130px] bg-[#f0f0f0] py-2 flex flex-col items-center justify-center rounded-md">
+            <div className="w-[130px] bg-[#f0f0f0] py-2 flex flex-col items-center justify-center rounded-md overflow-x-auto scrollbar-hidden">
               <div className="items-center flex justify-center">
                 <Image
                   src={item.url}

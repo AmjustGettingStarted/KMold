@@ -66,20 +66,20 @@ const Card: React.FC<CardProps> = ({ data }) => {
               <button
                 type="button"
                 className="py-2 cursor-pointer  tracking-tight flex shadow-xl hover:shadow-none bg-[#F3205B] items-center justify-center w-full text-sm sm:text-base rounded-sm sm:rounded-md "
-                onClick={() => handleClickModelClick("Get Best Price")}
+                onClick={() => handleClickModelClick("Get Best Offers")}
               >
                 Get Best Offers
               </button>
             </div>
           </div>
-          {/* Dialogue Box */}
-          <DialogDemo
-            emiOpen={modelOpen}
-            setModelOpen={setModelOpen}
-            dialogTitle={dialogTitle}
-          />
         </div>
       ))}
+      {/* Dialogue Box */}
+      <DialogDemo
+        emiOpen={modelOpen}
+        setModelOpen={setModelOpen}
+        dialogTitle={dialogTitle}
+      />
     </>
   );
 };
