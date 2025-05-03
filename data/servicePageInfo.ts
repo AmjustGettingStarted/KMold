@@ -702,7 +702,7 @@ export const services: Prop = {
   ],
   Body_Repair: [
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/4uLKMi85c5_1650198973.png",
       title: "Full Body Painting",
       desc1: "As and when required as per the vehicle condition",
       desc2: "3 years warranty",
@@ -720,7 +720,7 @@ export const services: Prop = {
       time: "7 Days",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/tTxC4UbCjg_1650199037.png",
       title: "Drum and Calliper Painting",
       desc1: "As and when required as per the vehicle condition",
       desc2: "No fading, No bubbles, no peeling",
@@ -735,7 +735,7 @@ export const services: Prop = {
       time: "6-8 Hours",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/JgGQT8fVTn_1650199074.png",
       title: "Roof Painting",
       desc1: "As and when required as per the vehicle condition",
       desc2: "No fading, No bubbles, no peeling",
@@ -750,7 +750,7 @@ export const services: Prop = {
       time: "6-8 Hours",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/SZkbQAZcH3_1650199117.png",
       title: "Spoilers Painting",
       desc1: "As and when required as per the vehicle condition",
       desc2: "No fading, No bubbles, no peeling",
@@ -764,7 +764,7 @@ export const services: Prop = {
       time: "6-8 Hours",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/1VqnojUWJY_1650199155.png",
       title: "Alloy Wheels Painting",
       desc1: "As and when required as per the vehicle condition",
       desc2: "No fading, No bubbles, no peeling",
