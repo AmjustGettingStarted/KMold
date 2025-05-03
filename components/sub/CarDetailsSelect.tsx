@@ -22,7 +22,8 @@ export function CarDetailsSelect({ title }: { title: string }) {
     <Select onValueChange={handleVariantChange}>
       <SelectTrigger className="px-2 text-[13px] w-full tracking-tighter border border-gray-300 rounded-xs lg:size-max">
         <SelectValue
-          placeholder={title}
+          // placeholder={title}
+          placeholder={title.length < 19 ? title : title.slice(0, 19)}
           className="-ml-2 placeholder:text-black"
         />
       </SelectTrigger>
