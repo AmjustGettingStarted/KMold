@@ -21,11 +21,11 @@ const Service = () => {
         {/* Hero / Banner Page below the header */}
         <Hero />
         {/* Sticky header + Scroll Area */}
-        <div className="sticky top-[60px] z-10 bg-white shadow-md w-[98%] mx-auto ">
+        <div className="sticky top-[55px] sm:top-[60px] z-10 bg-white shadow-md w-[98%] mx-auto ">
           <ServicePageScrollHeader data={data} />
         </div>
-        <div className="mt-10 relative w-full px-6">
-          <h1 className="text-3xl font-bold">{decodedTitle}</h1>
+        <div className="mt-10 relative w-full px-3 sm:px-6">
+          <h1 className="text-base sm:text-3xl font-bold">{decodedTitle}</h1>
           {/* Individual Cards section */}
           <div className="flex flex-col gap-4 w-full py-4">
             {serviceList.map((item, i) => (
@@ -33,17 +33,19 @@ const Service = () => {
                 key={i}
                 className="w-[98%] h-full mx-auto bg-white  border border-gray-200 px-4 py-2  "
               >
-                <div className="flex  w-full">
-                  <div className="w-[20%]">
+                <div className=" flex-col flex  sm:flex-row  w-full">
+                  {/* Image section */}
+                  <div className="w-full sm:w-[20%] flex items-center justify-center">
                     <Image
                       src={item.url}
                       alt={item.title}
                       width={501}
                       height={501}
-                      className="w-[200px] h-[200px] object-cover"
+                      className="w-[200px] h-[200px] object-"
                     />
                   </div>
-                  <div className="w-[80%] h-full">
+                  {/* Description Section */}
+                  <div className="w-full sm:w-[80%] h-full">
                     <div className="flex flex-col w-full p-4 items-start justify-start">
                       <div className="flex items-center justify-between w-full">
                         <h1 key={i} className="w-full  ">
@@ -65,7 +67,7 @@ const Service = () => {
                         </ul>
                       </div>
                       <div className="w-full">
-                        <ul className="w-full grid grid-cols-2 justify-between">
+                        <ul className="w-full grid sm:grid-cols-2 sm:justify-between">
                           {item.service.map((serv, j) => (
                             <li className="flex gap-2 items-center" key={j}>
                               <div className=" flex items-center justify-center w-3 h-3 rounded-full bg-[#D2EFE0] text-[#26B26B]">
