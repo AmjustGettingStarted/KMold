@@ -67,18 +67,22 @@ const FirstHeader = () => {
       <div className="fixed bottom-0 left-0 flex sm:hidden w-full h-[60px] bg-[#2d3393] z-20 ">
         <div className="flex justify-between w-full px-8 py-2 text-white">
           <span className="flex flex-col space-y-2 items-center">
-            <FaCarRear size={25} />
-            <h2 className="text-[0.65rem] ">Cars</h2>
+            <Link href="/allCars">
+              <FaCarRear size={25} />
+              <h2 className="text-[0.65rem] ">Cars</h2>
+            </Link>
           </span>
-          <span className="flex flex-col space-y-1 items-center">
-            <PiWhatsappLogoThin size={25} />
-            <h2 className="text-[0.65rem] ">Whatsapp</h2>
-          </span>
-          <span className="flex flex-col space-y-1 items-center">
+          <a href="https://api.whatsapp.com/send/?phone=%2B919845166144&text&type=phone_number&app_absent=0&wame_ctl=1">
+            <span className="flex flex-col space-y-1 items-center">
+              <PiWhatsappLogoThin size={25} />
+              <h2 className="text-[0.65rem] ">Whatsapp</h2>
+            </span>
+          </a>
+          <span className="flex flex-col space-y-1 items-center cursor-not-allowed">
             <IoCallOutline size={25} />
             <h2 className="text-[0.65rem] ">Call</h2>
           </span>
-          <span className="flex flex-col space-y-1 items-center">
+          <span className="flex flex-col space-y-1 items-center cursor-not-allowed">
             <IoLocationOutline size={25} />
             <h2 className="text-[0.65rem] ">Contact Us</h2>
           </span>
