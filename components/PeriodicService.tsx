@@ -15,7 +15,7 @@ export const data = [
   },
   {
     url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/service/sNDmocsT2q_1649936696.png",
-    title: "Repair & Maintenance",
+    title: "Repair And Maintenance",
     desc: "",
   },
 ];
