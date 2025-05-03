@@ -14,7 +14,7 @@ const NewCars = () => {
           <h1 className="text-lg whitespace-nowrap sm:text-3xl font-bold">
             Maruti Suzuki - New Cars
           </h1>
-          <button className="py-2 px-4 uppercase bg-[#546BFF] text-white text-sm sm:text-base rounded-md shadow-lg">
+          <button className="py-2 px-4 uppercase bg-[#546BFF] text-white text-sm sm:text-base rounded-md shadow-lg cursor-pointer hover:scale-105 ease-in-out transition-all">
             <Link href="/allCars">view all cars</Link>
           </button>
         </div>

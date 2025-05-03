@@ -13,7 +13,7 @@ const ChooseYourCar = () => {
       <div className="w-full flex items-center justify-between pb-6">
         <h1 className="text-lg sm:text-3xl font-bold">Choose Your Car</h1>
         <Link href="/allCars">
-          <button className="py-2 px-4 uppercase bg-[#546BFF] text-white text-sm sm:text-base rounded-md shadow-lg cursor-pointer">
+          <button className="py-2 px-4 uppercase bg-[#546BFF] text-white text-sm sm:text-base rounded-md shadow-lg cursor-pointer hover:scale-105 ease-in-out transition-all">
             view all cars
           </button>
         </Link>
