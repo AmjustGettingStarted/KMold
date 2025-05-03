@@ -546,7 +546,7 @@ export const services: Prop = {
       time: "1 to 2 Hours and depends upon availability",
     },
     {
-      url: "",
+      url: "https://kalyanimotorsadmin.kalyanicrm.com/storage/serviceType/SJHPf76nvV_1649771881.png",
       title: "Maruti Suzuki Tyre - 145/80R13",
       desc1: "As and when required as per the vehicle condition",
       desc2: "As per the warranty prescribed by the manufacturer",
