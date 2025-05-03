@@ -21,7 +21,7 @@ export function Hero() {
   return (
     <Carousel
       plugins={[plugin.current]}
-      className="w-full h-full overflow-hidden pt-[50px]  sm:pt-0"
+      className="w-full h-full overflow-hidden sm:pt-0"
       id="hero"
       onMouseEnter={plugin.current.stop}
       onMouseLeave={plugin.current.reset}
