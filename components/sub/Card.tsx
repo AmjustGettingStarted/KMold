@@ -66,7 +66,7 @@ const Card: React.FC<CardProps> = ({ data }) => {
               <button
                 type="button"
                 className="py-2 cursor-pointer  tracking-tight flex shadow-xl hover:shadow-none bg-[#F3205B] items-center justify-center w-full text-sm sm:text-base rounded-sm sm:rounded-md "
-                onClick={() => handleClickModelClick("Enquiry")}
+                onClick={() => handleClickModelClick("Get Best Price")}
               >
                 Get Best Offers
               </button>
