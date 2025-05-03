@@ -1,6 +1,8 @@
+"use client";
 import Image from "next/image";
 import Link from "next/link";
-import React from "react";
+import React, { useState } from "react";
+import { DialogDemo } from "./Dialog";
 
 export interface Cars {
   id: number;
@@ -14,6 +16,14 @@ interface CardProps {
 }
 
 const Card: React.FC<CardProps> = ({ data }) => {
+  const [modelOpen, setModelOpen] = useState(false);
+  const handleClickModelClick = (title: string) => {
+    setModelOpen(true);
+    setDialogTitle(title); //
+  };
+
+  // sending title of the button to the dialogue box
+  const [dialogTitle, setDialogTitle] = React.useState("");
   return (
     <>
       {data.map((car) => (
@@ -49,17 +59,25 @@ const Card: React.FC<CardProps> = ({ data }) => {
               <button
                 type="button"
                 className="py-2 cursor-pointer  tracking-tight flex shadow-xl hover:shadow-none bg-[#0D94EA] items-center justify-center w-full text-sm sm:text-base  sm:rounded-md rounded-sm "
+                onClick={() => handleClickModelClick("Get On-road Price")}
               >
                 Show on-Road Price
               </button>
               <button
                 type="button"
                 className="py-2 cursor-pointer  tracking-tight flex shadow-xl hover:shadow-none bg-[#F3205B] items-center justify-center w-full text-sm sm:text-base rounded-sm sm:rounded-md "
+                onClick={() => handleClickModelClick("Enquiry")}
               >
                 Get Best Offers
               </button>
             </div>
           </div>
+          {/* Dialogue Box */}
+          <DialogDemo
+            emiOpen={modelOpen}
+            setModelOpen={setModelOpen}
+            dialogTitle={dialogTitle}
+          />
         </div>
       ))}
     </>
