@@ -20,10 +20,7 @@ type Props = {
 export function DialogDemo({ emiOpen, setModelOpen, dialogTitle }: Props) {
   return (
     <Dialog open={emiOpen} onOpenChange={setModelOpen}>
-      {/* <DialogTrigger asChild>
-        <Button variant="outline">Edit Profile</Button>
-      </DialogTrigger> */}
-      <DialogContent className="sm:max-w-[27%] rounded-none ">
+      <DialogContent className="sm:max-w-[27%] rounded-none  ">
         <DialogHeader>
           <DialogTitle className="text-center font-bold text-xl">
             {dialogTitle}
@@ -39,7 +36,7 @@ export function DialogDemo({ emiOpen, setModelOpen, dialogTitle }: Props) {
           />
           <Input
             className="rounded-xs"
-            type="number"
+            type="tel"
             placeholder="Phone Number"
             required
           />

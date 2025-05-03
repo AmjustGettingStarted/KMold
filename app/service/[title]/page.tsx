@@ -1,6 +1,6 @@
 "use client";
 import { useParams } from "next/navigation";
-import React from "react";
+import React, { useState } from "react";
 import { data } from "@/data/service";
 import ServicePageScrollHeader from "@/components/sub/ServicePageScrollHeader";
 import { services } from "@/data/servicePageInfo";
@@ -10,11 +10,16 @@ import { IoIosCheckmark } from "react-icons/io";
 import { Hero } from "@/components/Hero";
 import CommonFaq from "@/components/CommonFaq";
 import NewCars from "@/components/NewCars";
+import { DialogDemo } from "@/components/sub/Dialog";
 
 const Service = () => {
   const { title } = useParams() as { title: string };
   const decodedTitle = decodeURIComponent(title).replaceAll("_", " ");
   const serviceList = services[title as keyof typeof services];
+  const [modelOpen, setModelOpen] = useState(false);
+  const handleClickModelClick = () => {
+    setModelOpen(true);
+  };
   return (
     <>
       <div className="mt-[50px] relative ">
@@ -47,14 +52,14 @@ const Service = () => {
                   {/* Description Section */}
                   <div className="w-full sm:w-[70%]  md:w-[80%] h-full py-2 ">
                     <div className="flex flex-col w-full  items-start justify-start">
-                      <div className="flex items-center justify-between w-full ">
+                      <div className="flex items-center justify-between w-full sm:w-[95%] ">
                         <h1
                           key={i}
                           className="w-full text-sm sm:text-lg font-bold "
                         >
                           {item.title}
                         </h1>
-                        <h2 className="whitespace-nowrap text-[12px] tracking-tight bg-[#e5e7e9] text-[#707171] w-auto sm:w-[40%] px-4 text-center py-1">
+                        <h2 className="whitespace-nowrap text-[12px] tracking-tight bg-[#e5e7e9] text-[#707171] w-auto mx-auto pl-6 pr-3 text-center py-1">
                           {item.time}
                         </h2>
                       </div>
@@ -90,7 +95,10 @@ const Service = () => {
                         </ul>
                       </div>
 
-                      <Button className="text-[#e73c33] font-bold  border border-[#e73c33] bg-white rounded-xs my-2 cursor-not-allowed hover:bg-white hover:text-[#e73c33] hover:border-[#e73c33]">
+                      <Button
+                        className="text-[#e73c33] font-bold  border border-[#e73c33] bg-white rounded-xs my-2  hover:bg-white hover:text-[#e73c33] hover:border-[#e73c33] cursor-pointer"
+                        onClick={handleClickModelClick}
+                      >
                         Book Your Service
                       </Button>
                     </div>
@@ -105,6 +113,11 @@ const Service = () => {
         {/* New Cars Component */}
         <NewCars />
       </div>
+      <DialogDemo
+        emiOpen={modelOpen}
+        setModelOpen={setModelOpen}
+        dialogTitle={"Register Service"}
+      />
     </>
   );
 };
