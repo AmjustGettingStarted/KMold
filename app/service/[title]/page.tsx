@@ -8,6 +8,8 @@ import Image from "next/image";
 import { Button } from "@/components/ui/button";
 import { IoIosCheckmark } from "react-icons/io";
 import { Hero } from "@/components/Hero";
+import CommonFaq from "@/components/CommonFaq";
+import NewCars from "@/components/NewCars";
 
 const Service = () => {
   const { title } = useParams() as { title: string };
@@ -16,6 +18,7 @@ const Service = () => {
   return (
     <>
       <div className="mt-[50px] relative ">
+        {/* Hero / Banner Page below the header */}
         <Hero />
         {/* Sticky header + Scroll Area */}
         <div className="sticky top-[60px] z-10 bg-white shadow-md w-[98%] mx-auto ">
@@ -83,6 +86,10 @@ const Service = () => {
             ))}
           </div>
         </div>
+        {/* Common FAQ  component*/}
+        <CommonFaq />
+        {/* New Cars Component */}
+        <NewCars />
       </div>
     </>
   );
