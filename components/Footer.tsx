@@ -35,7 +35,9 @@ const Footer = () => {
                   <Link
                     href={
                       footer.title === "about us"
-                        ? `/about-us/${item.replaceAll(" ", "_")}`
+                        ? item !== "contact us"
+                          ? `/about-us/${item.replaceAll(" ", "_")}`
+                          : "/"
                         : "/"
                     }
                     key={i}
