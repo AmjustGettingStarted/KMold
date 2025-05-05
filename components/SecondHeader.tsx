@@ -5,7 +5,7 @@ import Link from "next/link";
 const SecondHeader = () => {
   return (
     <>
-      <div className="z-10 hidden sm:flex pr-4 xl:pr-8 flex-row justify-between w-full items-center bg-[#f6f6f6] sticky py-2  px-3 shadow-md top-0">
+      <div className="z-30 hidden sm:flex pr-4 xl:pr-8 flex-row justify-between  w-full items-center bg-[#f6f6f6] sticky py-2  px-3 shadow-md top-0">
         {/* Left part */}
         <div className="flex justify-start items-center basis-[45%]">
           <Image
@@ -30,7 +30,6 @@ const SecondHeader = () => {
           </ul>
         </div>
       </div>
-      
     </>
   );
 };
