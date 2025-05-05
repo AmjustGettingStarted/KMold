@@ -16,7 +16,7 @@ const page = async ({ params: { title } }: { params: { title: string } }) => {
         />
       </div>
       {/* Tabs */}
-      <div className="">
+      <div className="relative">
         <TabsSection title={title} />
       </div>
     </div>
