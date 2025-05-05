@@ -11,15 +11,11 @@ import Gallery from "./Gallery";
 import { about_details } from "@/data/about-us";
 import Link from "next/link";
 
-// import { ScrollArea, ScrollBar } from "@/components/ui/scroll-area";
-
 const TabsSection = ({ title }: { title: string }) => {
   return (
     <>
       <Tabs defaultValue={title} className="">
         {/* Sticky Header and Scrollable */}
-        {/* <ScrollArea className="w-full whitespace-nowrap  shadow-lg  "> */}
-        {/* <div className="flex space-x-4 "> */}
         <TabsList className="w-full bg-white shadow-lg h-16  rounded-none sticky top-[55px] z-10">
           <div className="w-full lg:w-[90%] mx-auto justify-between flex overflow-x-auto scrollbar-hidden  ">
             {about_details.map((items, i) => (
@@ -33,13 +29,7 @@ const TabsSection = ({ title }: { title: string }) => {
               </Link>
             ))}
           </div>
-          {/* <ScrollBar
-                orientation="horizontal"
-                className="scrollbar-hidden"
-              /> */}
         </TabsList>
-        {/* </div> */}
-        {/* </ScrollArea> */}
         <div className="w-[90%] mx-auto">
           <TabsContent value="about_kalyani">
             <AboutKalyani />
