@@ -25,14 +25,14 @@ const WhyKalyaniMotors = () => {
             Ramanagar, Channapatna, Kanakapura & now Hyderabad.
           </p>
           <p>
-            As a "Platinum Dealer" for six consecutive years, Kalyani Motors is
-            the authorised sales & service dealer for Maruti Suzuki range of
-            automobiles in Bangalore, with the estimates for the current year
-            turnover standing at over Rs. 13.5 Billion. Kalyani Motors has many
-            firsts and achievements to its credit. The aggressive growth of the
-            company owes to steadfast processes and methodologies for rendering
-            impeccable quality services and establishing lasting customer
-            relationships.
+            As a <span>{`"Platinum Dealer"`}</span> for six consecutive years,
+            Kalyani Motors is the authorised sales & service dealer for Maruti
+            Suzuki range of automobiles in Bangalore, with the estimates for the
+            current year turnover standing at over Rs. 13.5 Billion. Kalyani
+            Motors has many firsts and achievements to its credit. The
+            aggressive growth of the company owes to steadfast processes and
+            methodologies for rendering impeccable quality services and
+            establishing lasting customer relationships.
           </p>
           <p>
             Kalyani Motors has a team of over 3467 employees, with nearly 400
@@ -45,12 +45,12 @@ const WhyKalyaniMotors = () => {
             into the premium segment through Nexa outlets in JPNagar &
             RRNagar-Mysore Rd; and in Hyderabad, with the 1 state-of-the-art
             showroom, 2 Service Centres, 2 Bodyshops, 1 True Value outlet and
-            India’s largest 200th Nexa outlet in Nagole, Hyderabad. Also, the
+            Indias largest 200th Nexa outlet in Nagole, Hyderabad. Also, the
             future holds 3 more outlets in Bangalore and 5 more at Hyderabad.
           </p>
           <p>
-            The collective, dedicated and consorted efforts of ‘Team Kalyani’
-            have been instrumental in Kalyani Motors winning accolades and
+            The collective, dedicated and consorted efforts of Team Kalyani have
+            been instrumental in Kalyani Motors winning accolades and
             establishing a strong and satisfied customer base. The state-of-art
             service centre fulfils our penchant for delivering the best to our
             customers. Our ever-friendly and ever-helpful sales personnel are
