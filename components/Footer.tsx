@@ -12,6 +12,7 @@ import { ImInstagram } from "react-icons/im";
 import { MdOutlineEmail } from "react-icons/md";
 import img1 from "../assets/playstore.png";
 import img2 from "../assets/appstore.png";
+import Link from "next/link";
 const Footer = () => {
   return (
     <>
@@ -31,9 +32,16 @@ const Footer = () => {
               </h1>
               <ul className="flex flex-col space-y-2 capitalize text-sm leading-tight tracking-tight ">
                 {footer.items.map((item, i) => (
-                  <li key={i} className="cursor-pointer">
-                    {item}
-                  </li>
+                  <Link
+                    href={
+                      footer.title === "about us"
+                        ? `/about-us/${item.replaceAll(" ", "_")}`
+                        : "/"
+                    }
+                    key={i}
+                  >
+                    <li className="cursor-pointer">{item}</li>
+                  </Link>
                 ))}
               </ul>
             </div>
