@@ -15,6 +15,7 @@ const FirstHeader = () => {
   const isDetailsPage =
     pathName.includes("details") ||
     pathName.includes("service") ||
+    pathName.includes("/") ||
     pathName.includes("allCars");
   return (
     <header>
