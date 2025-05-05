@@ -5,7 +5,11 @@ import CommonFaq from "@/components/CommonFaq";
 import NewCars from "@/components/NewCars";
 import ServiceCard from "./_component/ServiceCard";
 
-const Service = ({ params: { title } }: { params: { title: string } }) => {
+const Service = async ({
+  params: { title },
+}: {
+  params: { title: string };
+}) => {
   const decodedTitle = decodeURIComponent(title).replaceAll("_", " ");
 
   return (

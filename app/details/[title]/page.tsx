@@ -9,7 +9,7 @@ import { IoStarSharp } from "react-icons/io5";
 import HorizontalCard from "@/components/sub/HorizontalCard";
 import { keySpec } from "@/data/keySpecifications";
 import { CarDetailsScrollArea } from "@/components/sub/CarDetailsScrollArea";
-const CarDetails = ({ params: { title } }: { params: { title: string } }) => {
+const CarDetails =async ({ params: { title } }: { params: { title: string } }) => {
   const car =
     newCars.find(
       (car) => car.title === decodeURIComponent(title).replaceAll("_", " ")
