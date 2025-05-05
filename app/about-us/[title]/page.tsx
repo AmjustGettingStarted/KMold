@@ -6,7 +6,7 @@ const page = async ({ params: { title } }: { params: { title: string } }) => {
   return (
     <div className="mt-[60px] w-full">
       {/* Banner */}
-      <div className="w-full">
+      <div className="">
         <Image
           src={galleryImages[title]}
           alt={title}
@@ -16,8 +16,8 @@ const page = async ({ params: { title } }: { params: { title: string } }) => {
         />
       </div>
       {/* Tabs */}
-      <div className="w-full h-auto">
-        <TabsSection title={title === "/" ? "about_kalyani" : title} />
+      <div className="">
+        <TabsSection title={title} />
       </div>
     </div>
   );

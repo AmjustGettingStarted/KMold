@@ -10,7 +10,7 @@ export const data: Prop[] = [
       "contact us",
       "about kalyani",
       "why kalyani motors",
-      "quality  policy",
+      "quality policy",
       "privacy policy",
       "awards and achievement",
       "maruti driving school",

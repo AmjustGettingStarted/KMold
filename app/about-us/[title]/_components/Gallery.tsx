@@ -3,7 +3,7 @@ import { galleryImages } from "@/data/about-us";
 import Image from "next/image";
 const Gallery = () => {
   return (
-    <div className="w-full py-8 h-auto ">
+    <div className="w-full py-4 sm:py-8 h-auto ">
       <div className="flex flex-col ">
         <div>
           <h1 className="uppercase text-xl font-bold w-full pb-4">gallery</h1>

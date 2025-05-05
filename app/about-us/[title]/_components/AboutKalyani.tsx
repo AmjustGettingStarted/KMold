@@ -2,7 +2,7 @@ import React from "react";
 
 const AboutKalyani = () => {
   return (
-    <div className="w-full py-8 h-auto ">
+    <div className="w-full py-4 sm:py-8 h-auto ">
       <div className="flex flex-col ">
         <div>
           <h1 className="uppercase text-xl font-bold w-full pb-4">
@@ -10,7 +10,7 @@ const AboutKalyani = () => {
           </h1>
           <div className="border-b border-[#4d4d4dbe]/50"></div>
         </div>
-        <div className="text-justify space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
+        <div className="sm:text-justify text-left space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
           <p>
             Kalyani Motors, renowned for excellence among Maruti Suzuki dealers
             for nearly two decades, has been at the forefront of Indias

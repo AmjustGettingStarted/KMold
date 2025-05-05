@@ -16,6 +16,7 @@ const FirstHeader = () => {
     pathName.includes("details") ||
     pathName.includes("service") ||
     pathName.includes("/") ||
+    pathName.includes("/about-us") ||
     pathName.includes("allCars");
   return (
     <header>

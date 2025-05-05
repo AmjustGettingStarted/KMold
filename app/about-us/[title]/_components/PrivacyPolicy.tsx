@@ -2,14 +2,14 @@ import React from "react";
 
 const PrivacyPolicy = () => {
   return (
-    <div className="w-full py-8 h-auto ">
+    <div className="w-full py-4 sm:py-8 h-auto ">
       <div className="flex flex-col space-y-6">
         <div>
           <h1 className="uppercase text-xl font-bold w-full pb-4">
             privacy policy
           </h1>
           <div className="border-b border-[#4d4d4dbe]/50"></div>
-          <div className="text-justify space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
+          <div className="sm:text-justify text-left space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
             <p>
               Kalyani Motors Statement of Privacy at Kalyani Motors we take your
               privacy seriously. Please read the following to learn more about
@@ -22,7 +22,7 @@ const PrivacyPolicy = () => {
             What the terms and conditions cover
           </h1>
           <div className="border-b border-[#4d4d4dbe]/50"></div>
-          <div className="text-justify space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
+          <div className="sm:text-justify text-left space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
             <p>
               This covers Kalyani Motors treatment of personally identifiable
               information that Kalyani Motors collects when you are on Kalyani
@@ -40,7 +40,7 @@ const PrivacyPolicy = () => {
             Information Collection and Use
           </h1>
           <div className="border-b border-[#4d4d4dbe]/50"></div>
-          <div className="text-justify space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
+          <div className="sm:text-justify text-left space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
             <p>
               Kalyani Motors collects personally identifiable information when
               you register for a Kalyani Motors account. When you choose the
@@ -61,7 +61,7 @@ const PrivacyPolicy = () => {
             Information Sharing and Disclosure
           </h1>
           <div className="border-b border-[#4d4d4dbe]/50"></div>
-          <div className="text-justify space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
+          <div className="sm:text-justify text-left space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
             <p>
               Kalyani Motors will not sell or rent your Personally Identifiable
               Information to anyone. Kalyani Motors will send Personally
@@ -77,7 +77,7 @@ const PrivacyPolicy = () => {
         <div>
           <h1 className=" text-xl font-bold w-full pb-4">Security </h1>
           <div className="border-b border-[#4d4d4dbe]/50"></div>
-          <div className="text-justify space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
+          <div className="sm:text-justify text-left space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
             <p>
               Your Kalyani Motors account information is password-protected for
               your privacy and security We have taken adequate measures to
@@ -90,7 +90,7 @@ const PrivacyPolicy = () => {
             Changes to this Policy
           </h1>
           <div className="border-b border-[#4d4d4dbe]/50"></div>
-          <div className="text-justify space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
+          <div className="sm:text-justify text-left space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
             <p>
               Kalyani Motors may edit this policy from time to time. If we make
               any substantial changes, we will notify you by posting a prominent
@@ -101,7 +101,7 @@ const PrivacyPolicy = () => {
         <div>
           <h1 className=" text-xl font-bold w-full pb-4">Email Disclaimer</h1>
           <div className="border-b border-[#4d4d4dbe]/50"></div>
-          <div className="text-justify space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
+          <div className="sm:text-justify text-left space-y-8 text-[#4d4d4dbe] py-4 leading-loose">
             <p>
               This electronic transmission contains information from Kalyani
               Motors Pvt . Ltd. which is confidential and proprietary, and is
