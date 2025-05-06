@@ -2,14 +2,16 @@ import React from "react";
 import TabsSection from "./_components/TabsSection";
 import { galleryImages } from "@/data/about-us";
 import Image from "next/image";
-const page = async ({ params: { title } }: { params: { title: string } }) => {
+
+const page = async ({ params }: { params: { title: string } }) => {
+  // Ensure params is properly typed
   return (
     <div className="mt-[60px] w-full">
       {/* Banner */}
-      <div className="">
+      <div>
         <Image
-          src={galleryImages[title]}
-          alt={title}
+          src={galleryImages[params.title]}
+          alt={params.title}
           width={2874}
           height={783}
           className="w-full object-cover"
@@ -17,7 +19,7 @@ const page = async ({ params: { title } }: { params: { title: string } }) => {
       </div>
       {/* Tabs */}
       <div className="relative">
-        <TabsSection title={title} />
+        <TabsSection title={params.title} />
       </div>
     </div>
   );
