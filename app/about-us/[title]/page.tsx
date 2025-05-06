@@ -1,17 +1,21 @@
+"use client";
+
 import React from "react";
+import { useParams } from "next/navigation"; // Import usePathname
 import TabsSection from "./_components/TabsSection";
 import { galleryImages } from "@/data/about-us";
 import Image from "next/image";
 
-// Correct Next.js typing for params
-const page = async ({ params }: { params: Record<string, string> }) => {
+const Page = () => {
+  const { title } = useParams() as { title: string };
+
   return (
     <div className="mt-[60px] w-full">
       {/* Banner */}
       <div>
         <Image
-          src={galleryImages[params.title]}
-          alt={params.title}
+          src={title && galleryImages[title] ? galleryImages[title] : ""}
+          alt={title}
           width={2874}
           height={783}
           className="w-full object-cover"
@@ -19,10 +23,10 @@ const page = async ({ params }: { params: Record<string, string> }) => {
       </div>
       {/* Tabs */}
       <div className="relative">
-        <TabsSection title={params.title} />
+        <TabsSection title={title} />
       </div>
     </div>
   );
 };
 
-export default page;
+export default Page;

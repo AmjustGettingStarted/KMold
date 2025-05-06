@@ -1,6 +1,6 @@
-// "use client";
+"use client";
 import React from "react";
-// import { useParams } from "next/navigation";
+import { useParams } from "next/navigation";
 import { data as newCars } from "../../../data/newCars";
 import { CarData as chooseCars } from "../../../data/chooseCars";
 import { variants } from "@/data/carVariants";
@@ -9,7 +9,9 @@ import { IoStarSharp } from "react-icons/io5";
 import HorizontalCard from "@/components/sub/HorizontalCard";
 import { keySpec } from "@/data/keySpecifications";
 import { CarDetailsScrollArea } from "@/components/sub/CarDetailsScrollArea";
-const CarDetails =async ({ params: { title } }: { params: { title: string } }) => {
+const CarDetails = () => {
+  const { title } = useParams() as { title: string };
+
   const car =
     newCars.find(
       (car) => car.title === decodeURIComponent(title).replaceAll("_", " ")

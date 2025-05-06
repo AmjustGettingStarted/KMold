@@ -1,15 +1,15 @@
+"use client";
 import { data } from "@/data/service";
 import ServicePageScrollHeader from "@/components/sub/ServicePageScrollHeader";
 import { Hero } from "@/components/Hero";
 import CommonFaq from "@/components/CommonFaq";
 import NewCars from "@/components/NewCars";
 import ServiceCard from "./_component/ServiceCard";
+import { useParams } from "next/navigation";
 
-const Service = async ({
-  params: { title },
-}: {
-  params: { title: string };
-}) => {
+const Service = () => {
+  const { title } = useParams() as { title: string };
+
   const decodedTitle = decodeURIComponent(title).replaceAll("_", " ");
 
   return (
