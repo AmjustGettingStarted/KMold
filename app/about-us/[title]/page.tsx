@@ -3,11 +3,8 @@ import TabsSection from "./_components/TabsSection";
 import { galleryImages } from "@/data/about-us";
 import Image from "next/image";
 
-interface PageProps {
-  params: { title: string };
-}
-
-const page = async ({ params }: PageProps) => {
+// Correct Next.js typing for params
+const page = async ({ params }: { params: Record<string, string> }) => {
   return (
     <div className="mt-[60px] w-full">
       {/* Banner */}
