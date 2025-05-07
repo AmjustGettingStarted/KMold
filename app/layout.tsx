@@ -15,7 +15,7 @@ const geistMono = Geist_Mono({
 
 export const metadata: Metadata = {
   title:
-    "[CLONE] No.1 Maruti Suzuki Car Dealer in Bangalore & fastest growing dealer in Hyderabad.",
+    "[REPLICA] No.1 Maruti Suzuki Car Dealer in Bangalore & fastest growing dealer in Hyderabad.",
   description: "Practice",
 };
 
